@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import H7_Footer from "./_components/footer";
 
 export const metadata: Metadata = {
   title: "Home 7 | Smartic",
@@ -15,7 +16,7 @@ export default function Home7Layout({
     <>
       <header></header>
       <main className="flex flex-col">{children}</main>
-      <footer></footer>
+      <H7_Footer />
     </>
   );
 }

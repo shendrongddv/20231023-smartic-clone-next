@@ -24,7 +24,7 @@ const SectionIntro = () => {
           </p>
 
           <div className="flex items-center gap-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
               <Image
                 src="/7/floral-left.png"
                 alt="Left"
@@ -34,7 +34,7 @@ const SectionIntro = () => {
               />
               <div className="flex flex-col text-center">
                 <span className="text-lg">Winner</span>
-                <span className="text-sm">Best Product 2020</span>
+                <span className="text-xs md:text-sm">Best Product 2020</span>
               </div>
               <Image
                 src="/7/floral-right.png"
@@ -45,7 +45,7 @@ const SectionIntro = () => {
               />
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
               <Image
                 src="/7/floral-left.png"
                 alt="Left"
@@ -55,7 +55,7 @@ const SectionIntro = () => {
               />
               <div className="flex flex-col text-center">
                 <span className="text-lg">Top 3</span>
-                <span className="text-sm">Wellness Awards</span>
+                <span className="text-xs md:text-sm">Wellness Awards</span>
               </div>
               <Image
                 src="/7/floral-right.png"

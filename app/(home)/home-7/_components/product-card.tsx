@@ -21,7 +21,7 @@ const ProductCard = ({ name, price, media }: ProductCardProps) => {
         />
       </div>
 
-      <div className="flex flex-col gap-2 p-6 text-center">
+      <div className="flex flex-col gap-4 py-8 text-center md:p-6">
         <h3 className="line-clamp-2">{name}</h3>
 
         <div className="flex items-center justify-center gap-1 text-destructive">
