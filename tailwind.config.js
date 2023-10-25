@@ -57,10 +57,11 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        lora: "var(--lora)",
-        inter: "var(--inter)",
         anton: "var(--anton)",
+        bromny: "var(--bromny)",
         fahkwang: "var(--fahkwang)",
+        inter: "var(--inter)",
+        lora: "var(--lora)",
       },
       keyframes: {
         "accordion-down": {

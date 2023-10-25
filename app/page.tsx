@@ -15,6 +15,9 @@ const Home = () => {
           <Button asChild>
             <Link href="/home-7">Home 7</Link>
           </Button>
+          <Button asChild>
+            <Link href="/home-37">Home 37</Link>
+          </Button>
         </div>
       </section>
     </>

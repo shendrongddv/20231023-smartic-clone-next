@@ -1,6 +1,12 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { fontLora, fontAnton, fontInter, fontFahkwang } from "@/lib/fonts";
+import {
+  fontAnton,
+  fontBromny,
+  fontFahkwang,
+  fontInter,
+  fontLora,
+} from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -18,11 +24,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="!scroll-smooth">
       <body
         className={cn(
-          "font-inter antialiased",
-          fontLora.variable,
-          fontInter.variable,
+          "font-bromny antialiased",
           fontAnton.variable,
+          fontBromny.variable,
           fontFahkwang.variable,
+          fontInter.variable,
+          fontLora.variable,
         )}
       >
         {children}
