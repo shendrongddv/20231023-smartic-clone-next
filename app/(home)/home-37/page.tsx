@@ -1,3 +1,4 @@
+import SectionBenefits from "./_components/benefits";
 import SectionFeatures from "./_components/features";
 import SectionHero from "./_components/hero";
 import SectionIntroVideo from "./_components/intro-video";
@@ -17,6 +18,9 @@ const Home6 = () => {
 
       {/* Features */}
       <SectionFeatures />
+
+      {/* Benefits */}
+      <SectionBenefits />
     </>
   );
 };

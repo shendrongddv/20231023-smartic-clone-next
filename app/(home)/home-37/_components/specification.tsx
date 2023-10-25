@@ -4,7 +4,7 @@ import { SpecificationTable } from "./specification-table";
 
 const SectionSpecification = () => {
   return (
-    <section className="px-4 py-24">
+    <section className="px-4 pt-24">
       <div className="container flex flex-col items-center gap-16">
         <h2 className="text-center font-inter text-4xl font-bold text-black md:w-2/5 md:text-5xl">
           Cool breeze your way in the hot summer
