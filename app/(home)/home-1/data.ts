@@ -38,6 +38,11 @@ export const dataBenefits = [
     media: "h1_icon-1.svg",
   },
   {
+    id: "b6a9b35c-445b-570d-918e-a31eb4d816f6",
+    text: "Preserves the natural moisture level",
+    media: "h1_icon-4.svg",
+  },
+  {
     id: "adb6a524-a55e-5d58-a45f-21bdbf9aa9cc",
     text: "Provides a deep cleasing",
     media: "h1_icon-2.svg",
@@ -46,11 +51,6 @@ export const dataBenefits = [
     id: "a9264a84-189d-528e-971b-ec153c7fc7de",
     text: "Skin is restored with radiance",
     media: "h1_icon-3.svg",
-  },
-  {
-    id: "b6a9b35c-445b-570d-918e-a31eb4d816f6",
-    text: "Preserves the natural moisture level",
-    media: "h1_icon-4.svg",
   },
   {
     id: "0dbc2ffb-3750-53f2-ae95-5b6a62231278",

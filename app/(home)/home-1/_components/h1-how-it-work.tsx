@@ -26,14 +26,14 @@ const H1_SectionHowItWork = () => {
               key={item.id}
               className="group flex flex-col items-center gap-2 text-center"
             >
-              <div className="relative isolate mb-4 flex aspect-square w-3/5 items-center rounded-full bg-[#F3DDE0] transition duration-500 hover:bg-[#289C28] md:w-4/5">
+              <div className="relative isolate mb-4 flex aspect-square w-3/5 items-center rounded-full bg-[#F3DDE0] transition duration-500 group-hover:bg-[#289C28] md:w-4/5">
                 <div className="absolute -right-6 z-0 h-3/5 w-auto">
                   <Image
                     src={`/1/${item.shape}`}
                     alt={`Shape ${item.id}`}
                     width={250}
                     height={250}
-                    className="h-auto w-full"
+                    className="h-auto w-full transition duration-500 group-hover:scale-110"
                   />
                 </div>
 

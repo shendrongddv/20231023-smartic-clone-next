@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const H1_SectionHero = () => {
   return (
-    <section className="flex items-center bg-[url(/1/h1_bg-1.png)] bg-cover bg-bottom bg-no-repeat px-4 py-24 md:min-h-screen">
+    <section className="flex items-center bg-[url(/1/h1_bg-1.png)] bg-cover bg-bottom bg-no-repeat px-4 py-24 md:aspect-video md:min-h-screen">
       <div className="container">
         {/* Col */}
         <div className="flex flex-col items-start gap-4 md:w-1/2">
