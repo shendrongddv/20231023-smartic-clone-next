@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import H37_Footer from "./_components/h47-footer";
 
 export const metadata: Metadata = {
   title: "Home 37 | Smartic",
@@ -16,7 +17,7 @@ export default function Home37Layout({
       <div className="flex flex-col bg-slate-100 text-[#666666]">
         <header></header>
         <main>{children}</main>
-        <footer></footer>
+        <H37_Footer />
       </div>
     </>
   );
