@@ -33,18 +33,18 @@ const H1_SectionIngredients = () => {
 
           <ul className="grid gap-8 md:w-7/12 md:grid-cols-2 md:gap-12">
             {dataIngredients?.map((item) => (
-              <li key={item.id} className="flex items-center gap-4">
+              <li key={item.id} className="flex items-center gap-6">
                 <figure className="aspect-square w-auto shrink-0 overflow-hidden rounded-full">
                   <Image
                     src={`/1/${item.media}`}
                     alt={item.title}
                     width={140}
                     height={140}
-                    className="h-24 w-24 bg-cover"
+                    className="h-20 w-20 bg-cover md:h-24 md:w-24"
                   />
                 </figure>
                 <div className="md:space-y-2">
-                  <h3 className="font-spectralsc text-xl font-semibold text-black md:text-2xl">
+                  <h3 className="font-spectralsc text-lg font-semibold text-black md:text-2xl">
                     {item.title}
                   </h3>
                   <p>{item.desc}</p>
