@@ -10,6 +10,9 @@ const Home = () => {
             Home
           </h1>
           <Button asChild>
+            <Link href="/home-1">Home 1</Link>
+          </Button>
+          <Button asChild>
             <Link href="/home-6">Home 6</Link>
           </Button>
           <Button asChild>

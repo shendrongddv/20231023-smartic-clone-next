@@ -62,6 +62,7 @@ module.exports = {
         fahkwang: "var(--fahkwang)",
         inter: "var(--inter)",
         lora: "var(--lora)",
+        spectralsc: "var(--spectral-sc)",
       },
       keyframes: {
         "accordion-down": {
@@ -79,5 +80,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/forms")],
 };

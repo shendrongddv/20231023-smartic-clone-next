@@ -6,6 +6,7 @@ import {
   fontFahkwang,
   fontInter,
   fontLora,
+  fontSpectral,
 } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           fontFahkwang.variable,
           fontInter.variable,
           fontLora.variable,
+          fontSpectral.variable,
         )}
       >
         {children}
