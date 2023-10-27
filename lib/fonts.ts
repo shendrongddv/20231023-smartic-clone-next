@@ -1,10 +1,23 @@
-import { Anton, Inter, Fahkwang, Lora, Spectral_SC } from "next/font/google";
+import {
+  Anton,
+  Bebas_Neue,
+  Fahkwang,
+  Inter,
+  Lora,
+  Spectral_SC,
+} from "next/font/google";
 import localFont from "next/font/local";
 
 export const fontAnton = Anton({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--anton",
+});
+
+export const fontBebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--bebas-neue",
 });
 
 export const fontBromny = localFont({

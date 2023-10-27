@@ -77,3 +77,10 @@
 
 /* Custom */
 @import "./custom.css";
+
+/* Swiper */
+@import "./swiper.css";
+
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 92.5%, 0 85%);
+}

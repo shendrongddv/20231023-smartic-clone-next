@@ -1,7 +1,8 @@
-import "@/styles/globals.css";
 import type { Metadata } from "next";
+import "@/styles/globals.css";
 import {
   fontAnton,
+  fontBebasNeue,
   fontBromny,
   fontFahkwang,
   fontInter,
@@ -25,8 +26,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="!scroll-smooth">
       <body
         className={cn(
-          "bg-[#F1F3F6] font-bromny text-[#666666] antialiased",
+          "antialiased",
           fontAnton.variable,
+          fontBebasNeue.variable,
           fontBromny.variable,
           fontFahkwang.variable,
           fontInter.variable,

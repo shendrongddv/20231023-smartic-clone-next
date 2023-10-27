@@ -12,7 +12,7 @@ module.exports = {
       center: true,
       // padding: "2rem",
       screens: {
-        "2xl": "1280px",
+        "2xl": "1140px",
       },
     },
     extend: {
@@ -58,6 +58,7 @@ module.exports = {
       },
       fontFamily: {
         anton: "var(--anton)",
+        bebasneue: "var(--bebas-neue)",
         bromny: "var(--bromny)",
         fahkwang: "var(--fahkwang)",
         inter: "var(--inter)",
@@ -80,5 +81,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

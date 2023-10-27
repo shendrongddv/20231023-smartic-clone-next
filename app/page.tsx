@@ -1,201 +1,113 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
 
-const Home = () => {
+export default function Home() {
   return (
-    <>
-      {/* Hero */}
-      <section className="min-h-screen bg-[url(/0/ldp2-bg.jpg)] bg-cover bg-top bg-no-repeat px-4 py-24">
-        <div className="container">
-          {/* Row */}
-          <div className="mx-auto flex w-full flex-col items-center gap-4 text-center text-white">
-            <h1 className="text-5xl md:w-4/5 md:text-[90px]">
-              An outstanding{" "}
-              <span className="font-lora text-destructive">
-                product landing page
-              </span>{" "}
-              theme
-            </h1>
-
-            <p className="text-lg md:w-2/5">
-              Smartic is a really creative & modern Product Landing Page
-              WooCommerce Theme with a premier appeal built with powerful
-              Elementor page builder.
-            </p>
-
-            <Button
-              variant="secondary"
-              size="default"
-              className="mt-4 font-semibold"
-            >
-              View All Demos
-            </Button>
-          </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+          Get started by editing&nbsp;
+          <code className="font-mono font-bold">app/page.tsx</code>
+        </p>
+        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            By{' '}
+            <Image
+              src="/vercel.svg"
+              alt="Vercel Logo"
+              className="dark:invert"
+              width={100}
+              height={24}
+              priority
+            />
+          </a>
         </div>
-      </section>
+      </div>
 
-      {/* Demos */}
-      <section className="px-4 py-24">
-        <div className="container space-y-12">
-          {/* Row */}
-          <div className="flex flex-col items-center text-center">
-            <span className="flex items-start bg-[url(/0/ldp_mask.jpg)] bg-clip-text font-inter text-[90px] font-black leading-none text-transparent md:text-9xl">
-              50<span className="text-6xl">+</span>
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+      </div>
+
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+        <a
+          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Docs{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
             </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Find in-depth information about Next.js features and API.
+          </p>
+        </a>
 
-            <h2 className="text-[32px] font-medium text-black md:text-6xl">
-              <span className="font-lora text-destructive">Unique</span>{" "}
-              prebuilt demos
-            </h2>
+        <a
+          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Learn{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          </p>
+        </a>
 
-            <p>and more demos comingsoon</p>
-          </div>
+        <a
+          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Templates{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Explore the Next.js 13 playground.
+          </p>
+        </a>
 
-          {/* Row */}
-          <ul className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8">
-            <li className="flex flex-col items-center gap-2 bg-white p-2 md:p-4">
-              <figure className="overflow-hidden">
-                <Image
-                  src="/0/demos/ldp_home-37.jpg"
-                  alt="Home 37"
-                  width={560}
-                  height={560}
-                  className="h-auto w-full bg-cover"
-                />
-              </figure>
-              <Link
-                href="/home-37"
-                aria-label="Home 37"
-                className="text-center text-base font-medium text-black md:text-xl"
-              >
-                Home 37
-              </Link>
-            </li>
-            <li className="flex flex-col items-center gap-2 bg-white p-2 md:p-4">
-              <figure className="overflow-hidden">
-                <Image
-                  src="/0/demos/ldp_home-7.jpg"
-                  alt="Home 7"
-                  width={560}
-                  height={560}
-                  className="h-auto w-full bg-cover"
-                />
-              </figure>
-              <Link
-                href="/home-37"
-                aria-label="Home 37"
-                className="text-center text-base font-medium text-black md:text-xl"
-              >
-                Home 7
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      {/* CTA : Purchase Now */}
-      <section className="bg-[url(/0/ldp2_bg-1.jpg)] bg-cover bg-center bg-no-repeat px-4 py-24">
-        <div className="container flex flex-col items-center gap-12">
-          {/* Row */}
-          <div className="flex flex-col items-center gap-4 text-center text-white">
-            <h2 className="text-3xl md:w-4/5 md:text-6xl">
-              <span className="font-lora text-destructive">
-                Everything you need
-              </span>{" "}
-              for an awesome landing pages
-            </h2>
-
-            <p className="md:w-3/5">
-              Smartic comes with unique designs and layouts, diverse topics and
-              fields with proper styles. Build great Landing Pages easily with
-              Smartic.
-            </p>
-
-            <Button
-              variant="destructive"
-              size="default"
-              className="mt-4 font-semibold"
-            >
-              Purchase Now
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Reviews */}
-      <section className="px-4 py-24">
-        <div className="container flex flex-col items-center gap-12">
-          {/* Row */}
-          <div className="flex flex-col items-center gap-4 text-center">
-            <h2 className="text-3xl text-black md:w-4/5 md:text-6xl">
-              What&nbsp;
-              <span className="font-lora text-destructive">
-                our happy clients
-              </span>
-              &nbsp;say about us
-            </h2>
-
-            <p className="md:w-3/5">
-              We are grateful for the wonderful testimonials from our happy and
-              beloved clients. See what a recent partner has to say about
-              working with us.
-            </p>
-
-            <Button
-              variant="destructive"
-              size="default"
-              className="mt-4 font-semibold"
-            >
-              Purchase Now
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Template */}
-      <section className="bg-[#EAE2DE] px-4 py-24">
-        <div className="container flex flex-col items-center gap-12">
-          {/* Row */}
-          <div className="flex flex-col items-center gap-4 text-center">
-            <h2 className="text-3xl text-black md:w-3/5 md:text-6xl">
-              <span className="font-lora text-destructive">Stunning</span>
-              &nbsp;premade inside pages
-            </h2>
-
-            <Button
-              variant="destructive"
-              size="default"
-              className="mt-4 font-semibold"
-            >
-              Purchase Now
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Section */}
-      <section className="h-screen px-4 py-16">
-        <div className="container flex h-full flex-col items-center justify-center gap-6">
-          <h1 className="text-center font-lora text-2xl font-bold md:text-5xl">
-            Home
-          </h1>
-          <Button asChild>
-            <Link href="/home-1">Home 1</Link>
-          </Button>
-          <Button asChild>
-            <Link href="/home-6">Home 6</Link>
-          </Button>
-          <Button asChild>
-            <Link href="/home-7">Home 7</Link>
-          </Button>
-          <Button asChild>
-            <Link href="/home-37">Home 37</Link>
-          </Button>
-        </div>
-      </section>
-    </>
-  );
-};
-
-export default Home;
+        <a
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Deploy{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+      </div>
+    </main>
+  )
+}
