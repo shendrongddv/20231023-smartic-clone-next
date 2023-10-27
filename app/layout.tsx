@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="!scroll-smooth">
       <body
         className={cn(
-          "font-bromny antialiased",
+          "bg-[#F1F3F6] font-bromny text-[#666666] antialiased",
           fontAnton.variable,
           fontBromny.variable,
           fontFahkwang.variable,

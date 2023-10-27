@@ -3,7 +3,7 @@ import { dataIngredients } from "../data";
 
 const H1_SectionIngredients = () => {
   return (
-    <section className="px-4 py-24">
+    <section className="px-4 pt-24">
       <div className="container space-y-16">
         {/* Row */}
         <div className="flex w-full flex-col items-center gap-4 text-center">
