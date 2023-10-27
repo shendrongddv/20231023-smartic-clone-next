@@ -107,7 +107,7 @@ const D3_Section_Details = () => {
               non numquam eius.
             </p>
 
-            <figure className="mt-8 h-full">
+            <figure className="mt-8 h-full w-full">
               <Image
                 src="/3/image5-h3.jpg"
                 alt="Image"
