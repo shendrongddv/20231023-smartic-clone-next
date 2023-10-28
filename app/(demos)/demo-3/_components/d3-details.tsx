@@ -33,7 +33,7 @@ const D3_Section_Details = () => {
         <div className="flex flex-col-reverse gap-12 md:flex-row md:items-stretch md:justify-between">
           {/* Col */}
           <div className="flex flex-col items-center gap-4 text-center md:w-5/12 md:items-start md:pt-24 md:text-start">
-            <h2 className="font-bebasneue text-4xl font-bold text-black md:text-6xl">
+            <h2 className="font-bebasneue text-4xl text-black md:text-6xl">
               Multiple Organizer Travel Backpack
             </h2>
 
@@ -95,7 +95,7 @@ const D3_Section_Details = () => {
 
           {/* Col */}
           <div className="flex flex-col items-center gap-4 text-center md:w-6/12 md:items-start md:text-start">
-            <h2 className="font-bebasneue text-4xl font-bold text-black md:text-6xl">
+            <h2 className="font-bebasneue text-4xl text-black md:text-6xl">
               Safe and Connected
             </h2>
 

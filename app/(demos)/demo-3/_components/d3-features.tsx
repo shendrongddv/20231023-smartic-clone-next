@@ -5,7 +5,7 @@ const D3_Section_Features = () => {
   return (
     <section className="bg-slate-100 px-4 py-24">
       <div className="container space-y-8 pb-12 md:space-y-12">
-        <h2 className="text-center font-bebasneue text-4xl font-bold text-black md:text-6xl">
+        <h2 className="text-center font-bebasneue text-4xl text-black md:text-6xl">
           Hi-Tech Features
         </h2>
 
@@ -27,7 +27,7 @@ const D3_Section_Features = () => {
               </figure>
 
               <div className="flex flex-col md:items-center md:text-center">
-                <h3 className="font-bebasneue text-xl font-bold text-black md:text-2xl">
+                <h3 className="font-bebasneue text-xl text-black md:text-2xl">
                   {item.title}
                 </h3>
 

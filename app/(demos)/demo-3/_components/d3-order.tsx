@@ -8,7 +8,7 @@ const D3_Section_Order = () => {
       <div className="container flex flex-col items-center gap-8">
         {/* Row */}
         <div className="flex flex-col items-center gap-4 text-center">
-          <h2 className="font-bebasneue text-4xl font-bold text-black md:text-6xl">
+          <h2 className="font-bebasneue text-4xl text-black md:text-6xl">
             Get Product Now
           </h2>
         </div>

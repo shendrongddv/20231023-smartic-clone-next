@@ -22,7 +22,7 @@ const D3_Section_Guarantees = () => {
               </figure>
 
               <div className="flex flex-col md:items-center md:text-center">
-                <h3 className="font-bebasneue text-xl font-bold md:text-2xl">
+                <h3 className="font-bebasneue text-xl md:text-2xl">
                   {item.title}
                 </h3>
 

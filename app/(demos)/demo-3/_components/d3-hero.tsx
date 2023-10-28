@@ -8,7 +8,7 @@ const D3_Section_Hero = () => {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           {/* Col */}
           <div className="flex flex-col items-center gap-4  pb-16 text-center md:w-6/12 md:items-start md:text-start">
-            <h1 className="font-bebasneue text-4xl font-bold text-white md:text-7xl">
+            <h1 className="font-bebasneue text-4xl text-white md:text-7xl">
               The World&apos;s Smartest and Most Innovative Bags
             </h1>
 

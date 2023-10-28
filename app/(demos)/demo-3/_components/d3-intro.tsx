@@ -18,7 +18,7 @@ const D3_Section_Intro = () => {
 
         {/* Col */}
         <div className="flex flex-col items-center gap-4 text-center md:w-6/12 md:items-start md:text-start">
-          <h2 className="font-bebasneue text-4xl font-bold text-black md:text-6xl">
+          <h2 className="font-bebasneue text-4xl text-black md:text-6xl">
             The Next Generation Of Travel
           </h2>
 

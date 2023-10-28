@@ -9,7 +9,7 @@ const D3_Section_Reviews = () => {
           {/* Col */}
           <div className="md:w-5/12">
             <div className="space-y-8 md:pt-24">
-              <h2 className="font-bebasneue text-4xl font-bold text-black max-md:text-center md:text-6xl">
+              <h2 className="font-bebasneue text-4xl text-black max-md:text-center md:text-6xl">
                 Over 4,800 Positive Reviews
               </h2>
 
