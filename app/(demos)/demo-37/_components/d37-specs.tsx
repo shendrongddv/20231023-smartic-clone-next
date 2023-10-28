@@ -37,7 +37,7 @@ const D37_Section_Specs = () => {
               deserunt reprehenderit elit laborum.
             </p>
 
-            <D37_Section_SpecsTable/> />
+            <D37_Section_SpecsTable />
 
             <div className="mt-6 flex gap-4">
               <Button variant="destructive" size="lg" className="font-semibold">
