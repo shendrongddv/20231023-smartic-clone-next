@@ -29,6 +29,7 @@ const D50_Section_Hero = () => {
           {/* Col */}
           <div className="md:w-6/12">
             <Image
+              priority
               src="/50/rev-home50-1.png"
               alt="Image"
               width={709}

@@ -51,7 +51,10 @@ export const CardBlogAlpha = ({
       </figure>
 
       <div className="grid gap-2 p-4">
-        <div className="flex items-center justify-between gap-2 text-sm">
+        <div
+          aria-hidden
+          className="flex items-center justify-between gap-2 text-sm"
+        >
           <span className="flex items-center">
             <CalendarDays
               aria-hidden

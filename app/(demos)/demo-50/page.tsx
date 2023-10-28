@@ -9,6 +9,7 @@ import D50_Section_ShopNow from "./_components/d50-shop-now";
 import D50_Section_Gallery from "./_components/d50-gallery";
 import D50_Section_Blog from "./_components/d50-blog";
 import D50_CTA_Beta from "./_components/d50-cta-beta";
+import D50_CTA_Charlie from "./_components/d50-cta-charlie";
 
 const Demo_50_Page = () => {
   return (
@@ -31,7 +32,8 @@ const Demo_50_Page = () => {
       {/* HowToUse */}
       <D50_Section_HowToUse />
 
-      {/* ### */}
+      {/* CTA Charlie */}
+      <D50_CTA_Charlie />
 
       {/* ShopNow */}
       <D50_Section_ShopNow />
