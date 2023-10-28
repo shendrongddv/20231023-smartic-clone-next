@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { dataProducts } from "../data";
-import { CardProductAlpha } from "@/components/card/product";
+import { CardBlogAlpha } from "@/components/card/blog";
+import { dataBlogs } from "../data";
 
 const D50_Section_Blog = () => {
   return (
@@ -24,14 +24,12 @@ const D50_Section_Blog = () => {
 
         {/* List */}
         <ul className="grid gap-8 md:grid-cols-3">
-          {dataProducts?.map((item) => (
+          {dataBlogs?.map((item) => (
             <li key={item.id}>
-              <CardProductAlpha
+              <CardBlogAlpha
                 title={item.title}
-                priceOriginal={item.priceOriginal}
-                priceSale={item.priceSale}
-                inStock={item.inStock}
-                url={item.url}
+                desc={item.desc}
+                author={item.author}
                 media={item.media}
               />
             </li>

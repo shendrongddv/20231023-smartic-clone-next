@@ -156,3 +156,37 @@ export const dataProducts = [
     media: "product_50_3_1-500x549.jpg",
   },
 ];
+
+// Blogs
+export const dataBlogs = [
+  {
+    id: "7c656f2e-4adc-54f9-98f0-ec7630b603c1",
+    title: "Quam nisi etiam cum neque, feugiat nam mi sagittis",
+    desc: "Lacus hendrerit turpis magnis pretium, tempor laoreet conubia rhoncus quam. Donec convallis faucibus felis iaculis, sapien habitant commodo himenaeos tortor, sed aenean maecenas.",
+    author: "Sue Andrews",
+    createdAt: null,
+    url: "/",
+    media: "blog8-500x330.jpg",
+    tags: null,
+  },
+  {
+    id: "fca9ecb3-5491-5963-9883-61ab2fd88d05",
+    title: "Lorem ipsum dolor sit amet, elit dapibus mollis",
+    desc: "Sociis varius non quis taciti potenti etiam platea, vitae senectus viverra ullamcorper diam integer dictumst lacinia facilisi pharetra proin sollicitudin odio cubilia enim.",
+    author: "Ruth Grant",
+    createdAt: null,
+    url: "/",
+    media: "blog9-500x330.jpg",
+    tags: null,
+  },
+  {
+    id: "fba20f99-5d74-50aa-93c9-2caec280edf7",
+    title: "Volutpat eleifend lectus congue, natoque aliquet dignissim",
+    desc: "Netus vestibulum feugiat, in praesent litora hendrerit justo eros molestie posuere fringilla lacus, pretium lobortis arcu ullamcorper nulla parturient donec montes facilisi auctor.",
+    author: "Cody Newman",
+    createdAt: null,
+    url: "/",
+    media: "blog10-500x330.jpg",
+    tags: null,
+  },
+];

@@ -8,6 +8,7 @@ import D50_Section_HowToUse from "./_components/d50-how-to-use";
 import D50_Section_ShopNow from "./_components/d50-shop-now";
 import D50_Section_Gallery from "./_components/d50-gallery";
 import D50_Section_Blog from "./_components/d50-blog";
+import D50_CTA_Beta from "./_components/d50-cta-beta";
 
 const Demo_50_Page = () => {
   return (
@@ -40,6 +41,9 @@ const Demo_50_Page = () => {
 
       {/* Blog */}
       <D50_Section_Blog />
+
+      {/* CTA Beta */}
+      <D50_CTA_Beta />
     </>
   );
 };
