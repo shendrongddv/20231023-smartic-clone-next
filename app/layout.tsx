@@ -6,7 +6,9 @@ import {
   fontBromny,
   fontFahkwang,
   fontInter,
+  fontKanit,
   fontLora,
+  fontPlayfairDisplay,
   fontSpectral,
 } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
@@ -32,7 +34,9 @@ export default function RootLayout({
           fontBromny.variable,
           fontFahkwang.variable,
           fontInter.variable,
+          fontKanit.variable,
           fontLora.variable,
+          fontPlayfairDisplay.variable,
           fontSpectral.variable,
         )}
       >

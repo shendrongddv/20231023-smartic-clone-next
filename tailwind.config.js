@@ -62,7 +62,9 @@ module.exports = {
         bromny: "var(--bromny)",
         fahkwang: "var(--fahkwang)",
         inter: "var(--inter)",
+        kanit: "var(--kanit)",
         lora: "var(--lora)",
+        playfairdisplay: "var(--playfair-display)",
         spectralsc: "var(--spectral-sc)",
       },
       keyframes: {

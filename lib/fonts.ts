@@ -3,7 +3,9 @@ import {
   Bebas_Neue,
   Fahkwang,
   Inter,
+  Kanit,
   Lora,
+  Playfair_Display,
   Spectral_SC,
 } from "next/font/google";
 import localFont from "next/font/local";
@@ -36,9 +38,20 @@ export const fontInter = Inter({
   variable: "--inter",
 });
 
+export const fontKanit = Kanit({
+  subsets: ["latin"],
+  weight: ["400", "200", "300", "500", "600", "700", "100", "800", "900"],
+  variable: "--kanit",
+});
+
 export const fontLora = Lora({
   subsets: ["latin"],
   variable: "--lora",
+});
+
+export const fontPlayfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--playfair-display",
 });
 
 export const fontSpectral = Spectral_SC({
