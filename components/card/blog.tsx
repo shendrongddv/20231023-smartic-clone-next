@@ -55,13 +55,13 @@ export const CardBlogAlpha = ({
           <span className="flex items-center">
             <CalendarDays
               aria-hidden
-              className="mr-1 h-3 w-3 text-destructive"
+              className="mr-1 h-4 w-4 text-destructive"
             />
             September 29, 2020
           </span>
 
           <span className="flex items-center">
-            <User2 aria-hidden className="mr-1 h-3 w-3 text-destructive" />
+            <User2 aria-hidden className="mr-1 h-4 w-4 text-destructive" />
             by&nbsp;{author}
           </span>
         </div>
