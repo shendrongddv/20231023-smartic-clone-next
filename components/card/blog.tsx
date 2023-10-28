@@ -35,23 +35,23 @@ export const CardBlogAlpha = ({
         <span className="absolute inset-0 z-10 bg-black bg-opacity-0 transition duration-500 group-hover:bg-opacity-30"></span>
 
         <div className="absolute z-20 mt-auto flex h-max flex-wrap gap-1 p-4">
-          <Badge variant="destructive" className="rounded text-xs font-normal">
+          <Badge variant="destructive" className="rounded text-sm font-normal">
             Destructive
           </Badge>
-          <Badge variant="destructive" className="rounded text-xs font-normal">
+          <Badge variant="destructive" className="rounded text-sm font-normal">
             Destructive
           </Badge>
-          <Badge variant="destructive" className="rounded text-xs font-normal">
+          <Badge variant="destructive" className="rounded text-sm font-normal">
             Destructive
           </Badge>
-          <Badge variant="destructive" className="rounded text-xs font-normal">
+          <Badge variant="destructive" className="rounded text-sm font-normal">
             Destructive
           </Badge>
         </div>
       </figure>
 
       <div className="grid gap-2 p-4">
-        <div className="flex items-center justify-between gap-2 text-xs">
+        <div className="flex items-center justify-between gap-2 text-sm">
           <span className="flex items-center">
             <CalendarDays
               aria-hidden
@@ -79,7 +79,7 @@ export const CardBlogAlpha = ({
         <Link
           href="/"
           aria-label="Link"
-          className="group/icon mt-4 flex w-max items-center gap-2 border-b border-destructive pb-1 text-xs font-semibold uppercase text-black transition duration-300 hover:text-destructive"
+          className="group/icon mt-4 flex w-max items-center gap-2 border-b border-destructive pb-1 text-sm font-semibold uppercase leading-none text-black transition duration-300 hover:text-destructive"
         >
           Read More
           <Plus className="h-3 w-3 transition duration-300 group-hover/icon:rotate-45" />
