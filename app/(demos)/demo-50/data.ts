@@ -125,3 +125,34 @@ export const dataGalleries = [
     media: "h50_gallery6.jpg",
   },
 ];
+
+// Products
+export const dataProducts = [
+  {
+    id: "4aeba590-73a0-5e2f-a0fc-6d2c774aff74",
+    title: "Unflavored Dental Floss",
+    priceOriginal: 7.99,
+    priceSale: null,
+    inStock: true,
+    url: "/",
+    media: "product_50_1_1-500x549.jpg",
+  },
+  {
+    id: "451b2330-299d-52f5-8f91-25f6d45c3b88",
+    title: "Individually Wrapped Dental Floss",
+    priceOriginal: 19.99,
+    priceSale: null,
+    inStock: true,
+    url: "/",
+    media: "product_50_2_1-500x549.jpg",
+  },
+  {
+    id: "d045cd6a-dbe3-58e0-a026-89e59c93552d",
+    title: "Biodegradable Dental Floss Picks",
+    priceOriginal: 3.99,
+    priceSale: null,
+    inStock: true,
+    url: "/",
+    media: "product_50_3_1-500x549.jpg",
+  },
+];
