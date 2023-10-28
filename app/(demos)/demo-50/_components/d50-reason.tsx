@@ -9,7 +9,7 @@ const D50_Section_Reason = () => {
         <div className="flex flex-col items-center gap-6 text-center md:w-4/5">
           <figure aria-hidden>
             <Image
-              src="/50/h50_teeth-2.svg"
+              src="/50/h50_subtitle-2.svg"
               alt="Image"
               width={50}
               height={50}
@@ -38,7 +38,7 @@ const D50_Section_Reason = () => {
                 />
               </figure>
 
-              <h3 className="font-kanit text-xl font-semibold text-black md:w-4/5 md:text-2xl">
+              <h3 className="font-kanit text-xl font-semibold text-black md:w-3/5 md:text-2xl">
                 {item.title}
               </h3>
             </li>

@@ -9,7 +9,7 @@ const D50_Section_Problem = () => {
         <div className="flex flex-col items-center gap-6 text-center">
           <figure aria-hidden>
             <Image
-              src="/50/h50_teeth-1.svg"
+              src="/50/h50_subtitle-1.svg"
               alt="Image"
               width={50}
               height={50}

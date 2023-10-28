@@ -41,3 +41,87 @@ export const dataReason = [
     media: "h50_reason-3.svg",
   },
 ];
+
+// Features
+export const dataFeatures = [
+  {
+    id: "01d770d7-7b54-5fe6-b436-490bec37162c",
+    title: "High Tension Superelasticity",
+    media: "h50_feature-1.svg",
+  },
+  {
+    id: "84cd9fa0-595b-5843-a583-910378e951dd",
+    title: "Not Easy to Be Broken",
+    media: "h50_feature-1.svg",
+  },
+  {
+    id: "c211c11f-2a09-55cf-9f95-4f337f5d0778",
+    title: "Not Easy to Be Broken",
+    media: "h50_feature-1.svg",
+  },
+  {
+    id: "adc4c31d-7212-5266-a1b8-2f84e2e5b593",
+    title: "Comfortable Handle",
+    media: "h50_feature-1.svg",
+  },
+  {
+    id: "57588922-65cf-5faa-a129-02b8fb0a1857",
+    title: "Prevent Gum Pain",
+    media: "h50_feature-1.svg",
+  },
+  {
+    id: "6c25efc7-972f-5984-8407-7b11d5441af3",
+    title: "Tooth Health Care",
+    media: "h50_feature-1.svg",
+  },
+];
+
+// Steps
+export const dataSteps = [
+  {
+    id: "538ee635-0538-576a-9453-4f9b1d300c26",
+    title: "Step 01",
+    desc: "Move part of the floss ground the teeth gap, then slide into the teeth slowly.",
+    media: "h50_step-1.png",
+  },
+  {
+    id: "474792f0-927f-5ccd-b186-50f28344fe75",
+    title: "Step 02",
+    desc: "Move part of the floss ground the teeth gap, then slide into the teeth slowly.",
+    media: "h50_step-2.png",
+  },
+  {
+    id: "40053768-3c40-5888-8f73-80eaf1398003",
+    title: "Step 03",
+    desc: "Move part of the floss ground the teeth gap, then slide into the teeth slowly.",
+    media: "h50_step-3.png",
+  },
+];
+
+// Galleries
+export const dataGalleries = [
+  {
+    id: "0898ae0f-ecab-5f93-99e4-20dc86dbc2e6",
+    media: "h50_gallery1.jpg",
+  },
+  {
+    id: "edefa414-b41d-5396-bd80-827d0245057a",
+    media: "h50_gallery2.jpg",
+  },
+  {
+    id: "1876aa19-9f59-5c99-a4af-f463f32ae41f",
+    media: "h50_gallery3.jpg",
+  },
+  {
+    id: "d7712513-c1ba-5dae-965a-f0dbda7a6316",
+    media: "h50_gallery4.jpg",
+  },
+  {
+    id: "39e42981-5088-559c-bf61-8f2e23f7cf3d",
+    media: "h50_gallery5.jpg",
+  },
+  {
+    id: "43985058-b125-5b88-85d6-5b3a2ebfe5aa",
+    media: "h50_gallery6.jpg",
+  },
+];
