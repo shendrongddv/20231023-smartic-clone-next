@@ -34,7 +34,7 @@ const D4_Section_HowItWork = () => {
           </div>
 
           {/* Col */}
-          <div className="relative isolate flex md:order-2 md:w-4/12">
+          <div className="flex md:order-2 md:w-4/12">
             <figure className="z-10">
               <Image
                 src="/4/image3-h4.png"
