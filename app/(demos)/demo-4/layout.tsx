@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Demo 0 | Smartic",
+  title: "Demo 4 | Smartic",
   description:
     "Responsive Product Landing Page WordPress Theme Smartic Overview",
 };
 
-export default function Demo_0_Layout({
+export default function Demo_4_Layout({
   children,
 }: {
   children: React.ReactNode;

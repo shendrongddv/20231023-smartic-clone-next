@@ -66,6 +66,7 @@ module.exports = {
         lora: "var(--lora)",
         playfairdisplay: "var(--playfair-display)",
         spectralsc: "var(--spectral-sc)",
+        teko: "var(--teko)",
       },
       keyframes: {
         "accordion-down": {

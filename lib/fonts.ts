@@ -7,6 +7,7 @@ import {
   Lora,
   Playfair_Display,
   Spectral_SC,
+  Teko,
 } from "next/font/google";
 import localFont from "next/font/local";
 
@@ -58,4 +59,9 @@ export const fontSpectral = Spectral_SC({
   subsets: ["latin"],
   weight: ["400", "200", "300", "500", "600", "700", "800"],
   variable: "--spectral-sc",
+});
+
+export const fontTeko = Teko({
+  subsets: ["latin"],
+  variable: "--teko",
 });

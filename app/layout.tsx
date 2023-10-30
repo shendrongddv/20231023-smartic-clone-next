@@ -10,6 +10,7 @@ import {
   fontLora,
   fontPlayfairDisplay,
   fontSpectral,
+  fontTeko,
 } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           fontLora.variable,
           fontPlayfairDisplay.variable,
           fontSpectral.variable,
+          fontTeko.variable,
         )}
       >
         {children}
