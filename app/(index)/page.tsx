@@ -16,7 +16,7 @@ const IndexPage = () => {
                 key={item.id}
                 className="flex w-full flex-col items-center text-center"
               >
-                <figure className="overflow-hidden rounded-lg border">
+                <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border shadow-lg">
                   <Image
                     src={`/thumbnail/${item.media}`}
                     alt={item.title}
