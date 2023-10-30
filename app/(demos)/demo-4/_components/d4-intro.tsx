@@ -1,21 +1,27 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const D4_Section_Intro = () => {
   return (
     <section className="px-4 py-24">
       <div className="container flex flex-col items-center gap-12">
         {/* Row */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-8 md:flex-row md:items-stretch md:justify-between">
           {/* Col */}
           <div className="md:w-6/12">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              sapiente soluta magnam vel laboriosam, debitis ea.
-            </p>
+            <figure className="overflow-hidden">
+              <Image
+                src="/4/image2_h4.jpg"
+                alt="Image"
+                width={519}
+                height={600}
+                className="h-auto w-full object-cover"
+              />
+            </figure>
           </div>
 
           {/* Col */}
-          <div className="flex flex-col items-center gap-4 text-center md:w-5/12 md:items-start md:text-start">
+          <div className="flex flex-col items-center justify-center gap-4 text-center md:w-5/12 md:items-start md:text-start">
             <h1 className="font-teko text-4xl uppercase text-foreground md:text-5xl">
               <span className="bg-gradient-to-b from-transparent from-50% to-[#FFCA2E] to-50%">
                 For Muscle Support & Recovery
