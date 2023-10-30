@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { dataHowItsWork } from "../data";
+import { D4_Card_HowItWork } from "./d4-how-it-work-card";
 
 const D4_Section_HowItWork = () => {
   return (
@@ -14,28 +16,32 @@ const D4_Section_HowItWork = () => {
         </div>
 
         {/* Row */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+        <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between md:gap-8">
           {/* Col */}
           <div className="md:w-3/12">
-            <p>
-              AAA <br />
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              sapiente soluta magnam vel laboriosam, debitis ea.
-            </p>
+            <ul className="grid grid-cols-2 md:grid-cols-1">
+              {dataHowItsWork?.slice(0, 4)?.map((item) => (
+                <li key={item.id}>
+                  <D4_Card_HowItWork title={item.title} media={item.media} />
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Col */}
           <div className="md:order-last md:w-3/12">
-            <p>
-              BBB <br />
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              sapiente soluta magnam vel laboriosam, debitis ea.
-            </p>
+            <ul className="grid grid-cols-2 md:grid-cols-1">
+              {dataHowItsWork?.slice(4, 8)?.map((item) => (
+                <li key={item.id}>
+                  <D4_Card_HowItWork title={item.title} media={item.media} />
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Col */}
-          <div className="flex md:order-2 md:w-4/12">
-            <figure className="z-10">
+          <div className="flex w-full max-md:pt-8 md:order-2 md:w-4/12">
+            <figure className="z-10 w-full">
               <Image
                 src="/4/image3-h4.png"
                 alt="Image"
