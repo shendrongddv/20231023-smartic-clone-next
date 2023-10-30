@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const D4_Section_HowItWork = () => {
   return (
-    <section className="relative flex bg-[url(/4/image6_h4.jpg)] bg-cover bg-fixed bg-no-repeat px-4 pt-24">
+    <section className="relative flex bg-[url(/4/image6_h4.jpg)] bg-cover bg-center bg-no-repeat px-4 pt-24">
       <span
         aria-hidden
         className="absolute inset-0 z-0 bg-black bg-opacity-80"

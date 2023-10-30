@@ -29,8 +29,8 @@ const D4_Section_Reviews = () => {
               <Image
                 src="/4/image9-h4.png"
                 alt="Image"
-                width={437}
-                height={635}
+                width={257}
+                height={461}
                 className="mx-auto h-auto w-3/5 md:w-full"
               />
             </figure>
