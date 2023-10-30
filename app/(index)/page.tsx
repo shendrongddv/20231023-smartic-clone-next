@@ -3,6 +3,7 @@ import { dataPortfolios } from "./data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
+import { time } from "console";
 
 const IndexPage = () => {
   return (
@@ -12,11 +13,8 @@ const IndexPage = () => {
         <div className="container">
           <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8">
             {dataPortfolios?.map((item) => (
-              <li
-                key={item.id}
-                className="flex w-full flex-col items-center text-center"
-              >
-                <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border shadow-lg">
+              <li key={item.id} className="grid gap-2 rounded-lg p-2 shadow-xl">
+                <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border">
                   <Image
                     src={`/thumbnail/${item.media}`}
                     alt={item.title}
@@ -25,17 +23,51 @@ const IndexPage = () => {
                     className="h-full w-auto object-cover"
                   />
                 </figure>
-                <Button asChild variant="link" className="font-semibold">
-                  <Link
-                    href={item.url.clone}
-                    aria-label={item.title}
-                    target="_blank"
-                    rel="noopener noreferrer"
+
+                <div className="flex items-center justify-between gap-2">
+                  <span
+                    className="text-sm font-semibold
+                  "
                   >
                     {item.title}
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
+                  </span>
+
+                  <div className="flex gap-2">
+                    <Button
+                      asChild
+                      variant="outline"
+                      size="sm"
+                      className="gap-2 px-2"
+                    >
+                      <Link
+                        href={item.url.original}
+                        aria-label={item.title}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Reff
+                        <ExternalLink className="h-4 w-4" />
+                      </Link>
+                    </Button>
+
+                    <Button
+                      asChild
+                      variant="default"
+                      size="sm"
+                      className="gap-2 px-2"
+                    >
+                      <Link
+                        href={item.url.clone}
+                        aria-label={item.title}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Clone
+                        <ExternalLink className="h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
               </li>
             ))}
           </ul>

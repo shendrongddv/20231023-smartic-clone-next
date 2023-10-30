@@ -19,7 +19,7 @@ const D4_Section_Guarantee = () => {
           <div className="md:w-2/12">
             <figure>
               <Image
-                src="/4/image10-h4.png"
+                src="/4/image10-h4.svg"
                 alt="Image"
                 width={200}
                 height={200}
