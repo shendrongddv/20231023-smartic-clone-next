@@ -27,7 +27,7 @@ const IndexPage = () => {
                     asChild
                     variant="link"
                     size="sm"
-                    className="h-max rounded-none py-1"
+                    className="h-max rounded-none py-1 text-xs md:text-sm"
                   >
                     <Link
                       href={item.url.original}
@@ -42,7 +42,7 @@ const IndexPage = () => {
                     asChild
                     variant="link"
                     size="sm"
-                    className="h-max rounded-none py-1"
+                    className="h-max rounded-none py-1 text-xs md:text-sm"
                   >
                     <Link
                       href={item.url.clone}
