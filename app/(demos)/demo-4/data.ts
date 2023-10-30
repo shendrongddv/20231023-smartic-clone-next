@@ -8,17 +8,17 @@ export const dataHowItsWork = [
   {
     id: "ec5a816f-a059-51ef-a1cf-a56123e608a8",
     title: "Vitamin & Mineral Boosted",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-2.png",
   },
   {
     id: "26714936-6d12-5d96-a373-ad6a5a65d82e",
     title: "Workout Recovery",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-3.png",
   },
   {
     id: "1a9dd104-025f-53e9-88e2-8effb59a5ae7",
     title: "Easily Digested",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-4.png",
   },
   {
     id: "237d5c91-5e4d-54f9-aed9-4416f4ee6000",
@@ -28,17 +28,17 @@ export const dataHowItsWork = [
   {
     id: "8583e342-eff8-5d1c-bbcd-6824bcea90a3",
     title: "Added Recovery Nutrients",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-2.png",
   },
   {
     id: "e29f52cd-e528-5615-b95a-463cba06e0d1",
     title: "Advanced Purification",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-3.png",
   },
   {
     id: "27886dd4-5d14-59e6-877f-96a492576959",
     title: "Ultra Potent Protein",
-    media: "h4_how-it-work-1.png",
+    media: "h4_how-it-work-4.png",
   },
 ];
 
