@@ -34,7 +34,7 @@ const D4_Section_Reviews = () => {
 
           {/* Col */}
           <div className="w-full pt-12 md:w-4/12">
-            <D4_Review_Slider />
+            {/* <D4_Review_Slider /> */}
           </div>
 
           {/* Col */}

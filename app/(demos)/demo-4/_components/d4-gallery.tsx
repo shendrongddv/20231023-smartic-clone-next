@@ -1,3 +1,6 @@
+import Image from "next/image";
+import { dataGalleries } from "../data";
+
 const D4_Section_Gallery = () => {
   return (
     <section className="px-4 py-24">
@@ -11,24 +14,22 @@ const D4_Section_Gallery = () => {
           </h1>
         </div>
 
-        {/* Row */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          {/* Col */}
-          <div className="md:w-6/12">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              sapiente soluta magnam vel laboriosam, debitis ea.
-            </p>
-          </div>
-
-          {/* Col */}
-          <div className="md:w-6/12">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              sapiente soluta magnam vel laboriosam, debitis ea.
-            </p>
-          </div>
-        </div>
+        {/* List */}
+        <ul className="grid w-full grid-cols-2 md:grid-cols-4 md:gap-8">
+          {dataGalleries?.map((item) => (
+            <li key={item.id}>
+              <figure className="group aspect-1 overflow-hidden">
+                <Image
+                  src={`/4/${item.media}`}
+                  alt="Gallery"
+                  width={480}
+                  height={480}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+                />
+              </figure>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

@@ -33,7 +33,11 @@ const D4_Section_HowItWork = () => {
             <ul className="grid grid-cols-2 md:grid-cols-1">
               {dataHowItsWork?.slice(4, 8)?.map((item) => (
                 <li key={item.id}>
-                  <D4_Card_HowItWork title={item.title} media={item.media} />
+                  <D4_Card_HowItWork
+                    reverse
+                    title={item.title}
+                    media={item.media}
+                  />
                 </li>
               ))}
             </ul>

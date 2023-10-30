@@ -63,3 +63,39 @@ export const dataReviews = [
       "First try and you can feel the difference, feels clean, pure. Noticed that other brand was giving me headaches after drinking it so changed to Naked. Unflavored actually taste like nothing so... Great!",
   },
 ];
+
+// Galleries
+export const dataGalleries = [
+  {
+    id: "a8facd9f-7d95-53dc-af38-62cc4436d7f5",
+    media: "gallery1_h4.jpg",
+  },
+  {
+    id: "9e058bc3-5a6e-552b-a4a9-c074662525e1",
+    media: "gallery2_h4.jpg",
+  },
+  {
+    id: "2a0cf70e-4247-5eeb-a5a0-e51ee9cd506f",
+    media: "gallery3_h4.jpg",
+  },
+  {
+    id: "63d797ae-b956-565e-b4b7-c16b3269716c",
+    media: "gallery4_h4.jpg",
+  },
+  {
+    id: "31c65c61-ffe8-599c-a87a-ebb7baf52f61",
+    media: "gallery5_h4.jpg",
+  },
+  {
+    id: "a5f99efc-a658-5637-b0df-13e5d87766e4",
+    media: "gallery6_h4.jpg",
+  },
+  {
+    id: "08f526ca-e4d0-5ce6-b7ff-26bb7e02e4f6",
+    media: "gallery7_h4.jpg",
+  },
+  {
+    id: "762a3327-6dc9-596c-b7ca-b1c4c98264de",
+    media: "gallery8_h4.jpg",
+  },
+];
