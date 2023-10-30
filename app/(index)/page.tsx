@@ -27,7 +27,7 @@ const IndexPage = () => {
                 </figure>
                 <Button asChild variant="link" className="font-semibold">
                   <Link
-                    href={item.url}
+                    href={item.url.clone}
                     aria-label={item.title}
                     target="_blank"
                     rel="noopener noreferrer"
