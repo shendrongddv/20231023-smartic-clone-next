@@ -1,0 +1,8 @@
+/* Demo 4 */
+.d4-quote::before {
+  content: url("/public/4/quote.svg");
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 42px;
+}

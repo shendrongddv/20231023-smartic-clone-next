@@ -99,3 +99,25 @@ export const dataGalleries = [
     media: "gallery8_h4.jpg",
   },
 ];
+
+// Products
+export const dataProducts = [
+  {
+    id: "4aeba590-73a0-5e2f-a0fc-6d2c774aff74",
+    title: "1 Bottle Gold Standard",
+    priceOriginal: 987.58,
+    priceSale: null,
+    inStock: true,
+    url: "/",
+    media: "04_product_1-500x375.png",
+  },
+  {
+    id: "451b2330-299d-52f5-8f91-25f6d45c3b88",
+    title: "3 Bottle Gold Standard",
+    priceOriginal: 399.61,
+    priceSale: null,
+    inStock: true,
+    url: "/",
+    media: "04_product_2-500x375.png",
+  },
+];

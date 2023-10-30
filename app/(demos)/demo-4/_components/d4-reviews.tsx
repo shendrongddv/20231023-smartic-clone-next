@@ -34,21 +34,30 @@ const D4_Section_Reviews = () => {
             </div>
 
             {/* Row */}
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                numquam odit, mollitia excepturi magni doloribus iste.
-              </p>
+            <div className="relative isolate flex">
+              <div className="z-10 flex flex-col items-center gap-4 pl-4 text-center md:items-start md:text-start">
+                <p className="text-lg font-semibold italic text-foreground md:text-xl">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Velit nobis, nemo ut perspiciatis molestias vitae odit
+                  pariatur quasi magnam quos, porro quam fugiat molestiae!
+                </p>
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                numquam odit, mollitia excepturi magni doloribus iste.
-              </p>
+                <span className="mt-4">William Smith, Miami</span>
+              </div>
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                numquam odit, mollitia excepturi magni doloribus iste.
-              </p>
+              {/* Decor */}
+              <figure
+                aria-hidden
+                className="absolute -top-4 left-0 z-0 h-10 w-auto"
+              >
+                <Image
+                  src="/4/quote.svg"
+                  alt="Image"
+                  width={40}
+                  height={40}
+                  className="h-full w-auto"
+                />
+              </figure>
             </div>
           </div>
 
@@ -60,7 +69,7 @@ const D4_Section_Reviews = () => {
                 alt="Image"
                 width={257}
                 height={461}
-                className="mx-auto h-auto w-3/5 md:w-full"
+                className="mx-auto h-auto w-4/5 md:w-full"
               />
             </figure>
           </div>
