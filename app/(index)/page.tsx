@@ -2,8 +2,6 @@ import Image from "next/image";
 import { dataPortfolios } from "./data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ExternalLink } from "lucide-react";
-import { time } from "console";
 
 const IndexPage = () => {
   return (
@@ -13,8 +11,8 @@ const IndexPage = () => {
         <div className="container">
           <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8">
             {dataPortfolios?.map((item) => (
-              <li key={item.id} className="grid gap-2 rounded-lg p-2 shadow-xl">
-                <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border">
+              <li key={item.id} className="group grid gap-1">
+                <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border shadow-lg transition duration-300 group-hover:shadow-xl">
                   <Image
                     src={`/thumbnail/${item.media}`}
                     alt={item.title}
@@ -24,49 +22,37 @@ const IndexPage = () => {
                   />
                 </figure>
 
-                <div className="flex items-center justify-between gap-2">
-                  <span
-                    className="text-sm font-semibold
-                  "
+                <div className="flex items-center justify-center divide-x">
+                  <Button
+                    asChild
+                    variant="link"
+                    size="sm"
+                    className="h-max rounded-none py-1"
                   >
-                    {item.title}
-                  </span>
-
-                  <div className="flex gap-2">
-                    <Button
-                      asChild
-                      variant="outline"
-                      size="sm"
-                      className="gap-2 px-2"
+                    <Link
+                      href={item.url.original}
+                      aria-label={item.title}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Link
-                        href={item.url.original}
-                        aria-label={item.title}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Reff
-                        <ExternalLink className="h-4 w-4" />
-                      </Link>
-                    </Button>
-
-                    <Button
-                      asChild
-                      variant="default"
-                      size="sm"
-                      className="gap-2 px-2"
+                      Original
+                    </Link>
+                  </Button>
+                  <Button
+                    asChild
+                    variant="link"
+                    size="sm"
+                    className="h-max rounded-none py-1"
+                  >
+                    <Link
+                      href={item.url.clone}
+                      aria-label={item.title}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Link
-                        href={item.url.clone}
-                        aria-label={item.title}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Clone
-                        <ExternalLink className="h-4 w-4" />
-                      </Link>
-                    </Button>
-                  </div>
+                      Clone
+                    </Link>
+                  </Button>
                 </div>
               </li>
             ))}
