@@ -5,10 +5,10 @@ import Link from "next/link";
 const H2_CTA_Beta = () => {
   return (
     <section className="px-4">
-      <div className="container overflow-hidden rounded-3xl border bg-slate-100 px-4 pt-12">
-        <div className="flex flex-col gap-12 md:flex-row md:items-center md:justify-between">
+      <div className="container overflow-hidden rounded-3xl border bg-[#FAE0F5] px-4 pt-12">
+        <div className="relative isolate flex flex-col gap-12 md:flex-row md:items-center md:justify-between">
           {/* Col */}
-          <div className="md:w-5/12">
+          <div className="z-10 md:w-5/12">
             <div className="flex flex-col items-center gap-2 text-center md:items-start md:text-start">
               <h2 className="text-3xl font-bold text-foreground md:text-5xl">
                 Sign Up for Update & Promotions
@@ -26,8 +26,8 @@ const H2_CTA_Beta = () => {
           </div>
 
           {/* Col */}
-          <div className="md:w-6/12">
-            <figure>
+          <div className="z-10 md:w-6/12">
+            <figure className="z-10 mx-auto">
               <Image
                 src="/2/h2_children-1.png"
                 alt="Image"
@@ -37,6 +37,18 @@ const H2_CTA_Beta = () => {
               />
             </figure>
           </div>
+
+          {/* Decor */}
+          <figure aria-hidden className="absolute -bottom-1/3 -right-1/2 z-0">
+            <Image
+              priority
+              src="/2/h2_decor-4.svg"
+              alt="Image"
+              width={450}
+              height={745}
+              className="h-auto w-3/5 scale-150"
+            />
+          </figure>
         </div>
       </div>
     </section>

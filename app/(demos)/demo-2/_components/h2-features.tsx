@@ -5,8 +5,8 @@ import Link from "next/link";
 const H2_Section_Features = () => {
   return (
     <section className="px-4">
-      <div className="container overflow-hidden rounded-3xl border bg-slate-100 px-4 pt-12">
-        <div className="flex flex-col gap-12 md:flex-row md:items-center md:justify-between">
+      <div className="container relative flex overflow-hidden rounded-3xl bg-[#D0EFEC] px-6 pt-12">
+        <div className="z-10 flex flex-col gap-12 md:flex-row md:items-center md:justify-between">
           {/* Col */}
           <div className="md:w-5/12">
             <div className="flex flex-col items-center gap-2 text-center md:items-start md:text-start">
@@ -46,6 +46,18 @@ const H2_Section_Features = () => {
             </figure>
           </div>
         </div>
+
+        {/* Decor */}
+        <figure aria-hidden className="absolute bottom-0 right-0 z-0">
+          <Image
+            priority
+            src="/2/h2_decor-3.svg"
+            alt="Image"
+            width={160}
+            height={160}
+            className="aspect-1 w-full translate-x-1/4 translate-y-1/4 scale-150 md:translate-x-2/4 md:translate-y-2/4"
+          />
+        </figure>
       </div>
     </section>
   );

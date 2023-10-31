@@ -7,7 +7,6 @@ import H2_Section_Reviews from "./_components/h2-reviews";
 import D2_Section_WhatWeDo from "./_components/d2-what-we-do";
 import D2_Section_SellingPoints from "./_components/d2-selling-points";
 import D2_CTA_Alpha from "./_components/d2-cta-alpha";
-import D2_Section_Gallery from "./_components/d2-gallery";
 
 const Demo_2_Page = () => {
   return (
@@ -27,7 +26,6 @@ const Demo_2_Page = () => {
       {/* Group */}
       <div className="flex flex-col px-4">
         {/* Gallery */}
-        {/* <D2_Section_Gallery /> */}
 
         {/* CTA Alpha */}
         <D2_CTA_Alpha />
