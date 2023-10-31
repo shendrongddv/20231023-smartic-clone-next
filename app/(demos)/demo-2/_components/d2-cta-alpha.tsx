@@ -15,7 +15,7 @@ const D2_CTA_Alpha = () => {
             Control Easily From Your Smartphone
           </h2>
 
-          <div className="mt-4 flex items-center justify-center gap-2">
+          <div className="mt-4 flex w-full items-center justify-center gap-2 md:w-max">
             <Link
               href="/"
               aria-label="Download on iOS"
