@@ -67,12 +67,14 @@ export const Section_Hero_Alpha = () => {
 
 // Hero Beta
 export const Section_Hero_Beta = () => {
+  const sortDataPortfolios = dataPortfolios.sort((a, b) => b.id - a.id);
+
   return (
     <section className="px-4 py-12">
       <div className="container">
         {/* Row */}
         <ul className="grid grid-cols-2 gap-x-2 gap-y-4 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 md:gap-8">
-          {dataPortfolios?.map((item) => (
+          {sortDataPortfolios?.map((item) => (
             <li
               key={item.id}
               className="group grid gap-1 rounded-xl border bg-background p-1 shadow-lg md:gap-2 md:p-2"
@@ -95,7 +97,7 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Original Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border-white bg-slate-100 text-foreground shadow hover:bg-rose-500 hover:text-white"
+                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border border-white bg-slate-100 text-foreground shadow hover:bg-rose-500 hover:text-white"
                 >
                   <MoveUpLeft className="h-3 w-3" />
                 </Link>
@@ -109,7 +111,7 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Clone Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border-white bg-slate-100 text-foreground shadow hover:bg-indigo-600 hover:text-white"
+                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border border-white bg-slate-100 text-foreground shadow hover:bg-indigo-600 hover:text-white"
                 >
                   <MoveUpRight className="h-3 w-3" />
                 </Link>
