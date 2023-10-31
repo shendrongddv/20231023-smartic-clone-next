@@ -11,7 +11,7 @@ const IndexPage = () => {
         <div className="container">
           <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8">
             {dataPortfolios?.map((item) => (
-              <li key={item.id} className="group grid gap-1">
+              <li key={item.id} className="group grid gap-2">
                 <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border shadow-lg transition duration-300 group-hover:shadow-xl">
                   <Image
                     src={`/thumbnail/${item.media}`}
@@ -27,7 +27,7 @@ const IndexPage = () => {
                     asChild
                     variant="link"
                     size="sm"
-                    className="h-max rounded-none py-1 text-xs md:text-sm"
+                    className="h-max rounded-none py-1"
                   >
                     <Link
                       href={item.url.original}
@@ -42,7 +42,7 @@ const IndexPage = () => {
                     asChild
                     variant="link"
                     size="sm"
-                    className="h-max rounded-none py-1 text-xs md:text-sm"
+                    className="h-max rounded-none py-1"
                   >
                     <Link
                       href={item.url.clone}

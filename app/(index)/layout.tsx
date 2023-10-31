@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 const IndexLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <header></header>
-      <main>{children}</main>
-      <footer></footer>
+      <div id="demo-0" className="min-h-screen">
+        <header></header>
+        <main>{children}</main>
+        <footer></footer>
+      </div>
     </>
   );
 };

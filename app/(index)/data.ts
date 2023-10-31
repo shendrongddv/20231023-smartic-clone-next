@@ -1,6 +1,24 @@
 // Portfolios
 export const dataPortfolios = [
   {
+    id: 1,
+    title: "Demo 1",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-1/",
+      clone: "demo-1",
+    },
+    media: "ldp_home-1.jpg",
+  },
+  {
+    id: 2,
+    title: "Demo 2",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-2/",
+      clone: "demo-2",
+    },
+    media: "ldp_home-2.jpg",
+  },
+  {
     id: 3,
     title: "Demo 3",
     url: {
@@ -8,6 +26,15 @@ export const dataPortfolios = [
       clone: "demo-3",
     },
     media: "ldp_home-3.jpg",
+  },
+  {
+    id: 7,
+    title: "Demo 7",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-7/",
+      clone: "demo-7",
+    },
+    media: "ldp_home-7.jpg",
   },
   {
     id: 4,
