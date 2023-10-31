@@ -84,7 +84,7 @@ export const Section_Hero_Beta = () => {
                   alt={item.title}
                   width={560}
                   height={400}
-                  className="h-auto w-full object-cover transition duration-500 group-hover:scale-110"
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
                 />
               </figure>
 
@@ -95,13 +95,13 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Original Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex aspect-1 h-6 items-center justify-center rounded-lg bg-secondary text-foreground shadow"
+                  className="flex aspect-1 h-7 items-center justify-center rounded-lg bg-slate-200 text-foreground"
                 >
                   <MoveUpLeft className="h-3 w-3" />
                 </Link>
 
                 <div className="flex items-center justify-center text-clip">
-                  <p className="text-xs md:text-sm">{item.title}</p>
+                  <p className="text-xs font-medium md:text-sm">{item.title}</p>
                 </div>
 
                 <Link
@@ -109,7 +109,7 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Clone Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex aspect-1 h-6 items-center justify-center rounded-lg bg-destructive text-white shadow"
+                  className="flex aspect-1 h-7 items-center justify-center rounded-lg bg-slate-200 text-foreground"
                 >
                   <MoveUpRight className="h-3 w-3" />
                 </Link>
