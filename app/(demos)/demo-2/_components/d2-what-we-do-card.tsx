@@ -20,7 +20,9 @@ export const D2_Card_WhatWeDo = ({
       </div>
 
       <div className="flex flex-col md:items-center md:text-center">
-        <h3 className="text-lg font-bold text-foreground">{title}</h3>
+        <h2 className="text-lg font-bold text-foreground md:text-2xl">
+          {title}
+        </h2>
         <p className="text-sm md:text-base">{desc}</p>
       </div>
     </div>

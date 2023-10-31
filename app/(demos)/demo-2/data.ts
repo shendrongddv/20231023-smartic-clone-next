@@ -52,3 +52,27 @@ export const dataFeatures = [
     icon: AlertCircle,
   },
 ];
+
+// SellingPoints
+export const dataSellingPoints = [
+  {
+    id: "90c62616-2bd0-584a-a022-f292537c8e69",
+    title: "Designed for Reliable Mobile Coverage",
+    desc: "Smartic requires a Nano SIM card with voice calls, SMS and approximately 200MB data per month.For optimal coverage, we recommending connecting Smatic to a 3G network that uses 2100/850 MHz frequencies.",
+    links: {
+      label: "More Details",
+      url: "/",
+    },
+    media: "h2_img-6.png",
+  },
+  {
+    id: "4db1ef52-dfca-5a0a-a1a8-2149d8e974d7",
+    title: "Communicate the Way You Like",
+    desc: "If it is inconvenient to call, voice chat is always available. It allows you to send voice messages for them to be listened and replied to in a convenient manner.",
+    links: {
+      label: "More Details",
+      url: "/",
+    },
+    media: "h2_img-5.png",
+  },
+];
