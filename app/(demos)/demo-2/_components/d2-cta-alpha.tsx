@@ -4,9 +4,9 @@ import Link from "next/link";
 const D2_CTA_Alpha = () => {
   return (
     <>
-      <div className="container z-0 overflow-hidden rounded-3xl bg-[#F1ECD7] px-4 py-32">
+      <div className="container z-0 overflow-hidden rounded-3xl bg-[#F1ECD7] px-4 py-12 md:py-24">
         {/* Row */}
-        <div className="mx-auto flex flex-col items-center gap-4 py-12 text-center md:w-1/2">
+        <div className="mx-auto flex flex-col items-center gap-4 pb-12 text-center md:w-1/2 md:pb-24">
           <span className="font-semibold text-destructive">
             Download the App
           </span>
@@ -27,7 +27,7 @@ const D2_CTA_Alpha = () => {
                 alt="Image"
                 width={190}
                 height={62}
-                className="h-full max-h-14 w-auto"
+                className="h-full w-auto md:max-h-14"
               />
             </Link>
 
@@ -42,7 +42,7 @@ const D2_CTA_Alpha = () => {
                 alt="Image"
                 width={190}
                 height={62}
-                className="h-full max-h-14 w-auto"
+                className="h-full w-auto md:max-h-14"
               />
             </Link>
           </div>
@@ -50,13 +50,13 @@ const D2_CTA_Alpha = () => {
       </div>
 
       {/* Row */}
-      <figure aria-hidden className="container z-10 -mt-24">
+      <figure aria-hidden className="container z-10 -mt-12  md:-mt-24">
         <Image
           src="/2/h2_phone.png"
           alt="Image"
           width={746}
           height={204}
-          className="mx-auto h-auto w-full md:w-3/5"
+          className="mx-auto h-auto w-11/12 md:w-3/5"
         />
       </figure>
     </>

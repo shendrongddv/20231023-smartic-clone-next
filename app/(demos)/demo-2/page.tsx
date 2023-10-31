@@ -27,7 +27,7 @@ const Demo_2_Page = () => {
       {/* Group */}
       <div className="flex flex-col px-4">
         {/* Gallery */}
-        <D2_Section_Gallery />
+        {/* <D2_Section_Gallery /> */}
 
         {/* CTA Alpha */}
         <D2_CTA_Alpha />
