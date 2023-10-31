@@ -95,7 +95,7 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Original Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex aspect-1 h-7 items-center justify-center rounded-lg bg-slate-200 text-foreground"
+                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border-white bg-slate-100 text-foreground shadow hover:bg-rose-500 hover:text-white"
                 >
                   <MoveUpLeft className="h-3 w-3" />
                 </Link>
@@ -109,7 +109,7 @@ export const Section_Hero_Beta = () => {
                   aria-label="Link to Clone Version"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex aspect-1 h-7 items-center justify-center rounded-lg bg-slate-200 text-foreground"
+                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border-white bg-slate-100 text-foreground shadow hover:bg-indigo-600 hover:text-white"
                 >
                   <MoveUpRight className="h-3 w-3" />
                 </Link>
