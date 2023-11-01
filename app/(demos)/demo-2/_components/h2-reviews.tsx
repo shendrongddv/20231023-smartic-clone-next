@@ -19,7 +19,9 @@ const H2_Section_Reviews = () => {
           {dataReviewList.slice(0, 3)?.map((item) => (
             <li key={item.id}>
               <Card_Review_Beta
+                id={item.id}
                 name={item.name}
+                bioIsMale={item.bio.isMale}
                 bioCity={item.bio.city}
                 review={item.review}
               />

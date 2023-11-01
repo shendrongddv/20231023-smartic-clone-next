@@ -2,6 +2,7 @@ import { Star, StarOff } from "lucide-react";
 import Image from "next/image";
 
 type Card_Review_Beta_Props = {
+  id: number;
   name: string;
   bioIsMale?: boolean;
   bioAge?: number;
@@ -16,6 +17,7 @@ type Card_Review_Beta_Props = {
 };
 
 export const Card_Review_Beta = ({
+  id,
   name,
   bioIsMale,
   bioAge,
@@ -32,7 +34,9 @@ export const Card_Review_Beta = ({
     <div className="flex h-full flex-col items-center gap-4 text-center">
       <figure className="aspect-1 h-16 overflow-hidden rounded-full border-2 border-background shadow-lg">
         <Image
-          src="/global/user/avatar-1.jpg"
+          src={`https://randomuser.me/api/portraits/${
+            bioIsMale ? "men" : "women"
+          }/${id}.jpg`}
           alt="Avatar"
           width={64}
           height={64}

@@ -11,7 +11,7 @@ import {
 // ProductList
 export const dataProductList = [
   {
-    id: "1",
+    id: 1,
     title: "Smartic Basic",
     desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit, magna erat torquent augue faucibus bibendum elementum, libero interdum cursus eros nisl dapibus. Quisque porttitor ultrices ultricies fames pharetra sapien aliquet tellus taciti neque, orci cras a nunc eget dis.",
     price: {
@@ -33,7 +33,7 @@ export const dataProductList = [
     },
   },
   {
-    id: "2",
+    id: 2,
     title: "Smartic X3",
     desc: "Magna volutpat, auctor sed nisl ad placerat ac mi gravida vitae. Tellus justo nibh ante purus mauris torquent potenti, ultrices hac libero class proin ad. Aliquam vel vestibulum aenean conubia nascetur ultrices porttitor, eleifend erat tempor eget etiam pretium.",
     price: {
@@ -55,7 +55,7 @@ export const dataProductList = [
     },
   },
   {
-    id: "3",
+    id: 3,
     title: "Smartic Pro",
     desc: "Gravida aptent libero est rhoncus iaculis dui natoque, sociis auctor vestibulum cubilia nulla nam rutrum. Eget lacinia etiam id fusce elementum ultrices blandit augue, fames luctus curae eu sodales posuere donec pellentesque leo, enim varius lectus tortor.",
     price: {
@@ -80,21 +80,21 @@ export const dataProductList = [
 // Features
 export const dataFeatures = [
   {
-    id: "827a40f7-814f-5964-a06f-0bdd01f47290",
+    id: "87a40f7-814f-5964-a06f-0bdd01f47290",
     title: "Location",
     desc: "Smartic gives information about the location of your child every minute with preciseness when outside up to 10 meters.",
     media: "MEDIAXXX",
     icon: Locate,
   },
   {
-    id: "4fcc73d1-21d0-57cc-b84e-beaa3e1564d4",
+    id: "4cc73d1-21d0-57cc-b84e-beaa3e1564d4",
     title: "Calls",
     desc: "Smartic can receive and make calls only from/to numbers which are authorized by the parents.",
     media: "MEDIAXXX",
     icon: PhoneCall,
   },
   {
-    id: "4c60d265-47d1-5518-a7f7-a0ce8eec5eca",
+    id: "460d265-47d1-5518-a7f7-a0ce8eec5eca",
     title: "Secure Zones",
     desc: "If your child leaves or enters these zones, you will immediately receive information.",
     media: "MEDIAXXX",
@@ -183,7 +183,7 @@ export const dataServiceGuarantee = [
 // Review
 export const dataReviewList = [
   {
-    id: "1",
+    id: 1,
     name: "John Smith",
     bio: {
       isMale: true,
@@ -202,7 +202,7 @@ export const dataReviewList = [
     rating: 5,
   },
   {
-    id: "2",
+    id: 2,
     name: "Emily Johnson",
     bio: {
       isMale: false,
@@ -221,7 +221,7 @@ export const dataReviewList = [
     rating: 4,
   },
   {
-    id: "3",
+    id: 3,
     name: "Michael Brown",
     bio: {
       isMale: true,
@@ -240,7 +240,7 @@ export const dataReviewList = [
     rating: 4.5,
   },
   {
-    id: "4",
+    id: 4,
     name: "Sarah Davis",
     bio: {
       isMale: false,
@@ -259,7 +259,7 @@ export const dataReviewList = [
     rating: 5,
   },
   {
-    id: "5",
+    id: 5,
     name: "David Wilson",
     bio: {
       isMale: true,
@@ -278,7 +278,7 @@ export const dataReviewList = [
     rating: 4,
   },
   {
-    id: "6",
+    id: 6,
     name: "Olivia Taylor",
     bio: {
       isMale: false,
@@ -297,7 +297,7 @@ export const dataReviewList = [
     rating: 4.5,
   },
   {
-    id: "7",
+    id: 7,
     name: "Robert Johnson",
     bio: {
       isMale: true,
@@ -316,7 +316,7 @@ export const dataReviewList = [
     rating: 4.8,
   },
   {
-    id: "8",
+    id: 8,
     name: "Sophia Anderson",
     bio: {
       isMale: false,
@@ -335,7 +335,7 @@ export const dataReviewList = [
     rating: 4.2,
   },
   {
-    id: "9",
+    id: 9,
     name: "Daniel Martinez",
     bio: {
       isMale: true,
@@ -354,7 +354,7 @@ export const dataReviewList = [
     rating: 4.7,
   },
   {
-    id: "10",
+    id: 10,
     name: "Ava Thompson",
     bio: {
       isMale: false,
@@ -373,7 +373,7 @@ export const dataReviewList = [
     rating: 4.5,
   },
   {
-    id: "11",
+    id: 11,
     name: "Matthew Roberts",
     bio: {
       isMale: true,
@@ -392,7 +392,7 @@ export const dataReviewList = [
     rating: 4.3,
   },
   {
-    id: "12",
+    id: 12,
     name: "Lily Green",
     bio: {
       isMale: false,
