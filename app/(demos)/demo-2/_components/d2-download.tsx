@@ -25,7 +25,7 @@ const D2_Section_Download = () => {
                     alt="Image"
                     width={190}
                     height={62}
-                    className="ml-auto h-full w-auto overflow-hidden rounded-lg shadow-lg md:max-h-14"
+                    className="ml-auto h-12 w-auto overflow-hidden rounded-lg shadow-lg"
                   />
                 </Link>
 
@@ -36,7 +36,7 @@ const D2_Section_Download = () => {
                     alt="Image"
                     width={190}
                     height={62}
-                    className="mr-auto h-full w-auto overflow-hidden rounded-lg shadow-lg md:max-h-14"
+                    className="mr-auto h-12 w-auto overflow-hidden rounded-lg shadow-lg"
                   />
                 </Link>
               </div>
