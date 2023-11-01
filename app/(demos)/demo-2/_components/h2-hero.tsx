@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const H2_Section_Hero = () => {
   return (
-    <section className="md:px-4">
+    <section className="md:px-4 md:pt-24">
       <div className="z-0 mx-auto flex max-w-[1280px] overflow-hidden bg-[#A5CEF0] px-4 pt-24 md:rounded-[2rem] md:pt-12">
         <div className="container z-[1]">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
