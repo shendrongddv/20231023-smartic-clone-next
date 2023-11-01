@@ -37,7 +37,7 @@ export const Card_Review_Beta = ({
           src={`https://randomuser.me/api/portraits/${
             bioIsMale ? "men" : "women"
           }/${id}.jpg`}
-          alt="Avatar"
+          alt={name}
           width={64}
           height={64}
           className="h-full w-auto object-cover"

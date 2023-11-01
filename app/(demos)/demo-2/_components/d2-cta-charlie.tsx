@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlayCircle } from "lucide-react";
 
-const H2_CTA_Beta = () => {
+const D2_CTA_Charlie = () => {
   return (
-    <section className="px-4 py-24">
-      <div className="z-0 mx-auto flex max-w-[1280px] overflow-hidden rounded-[2rem] bg-[#fae0f5] px-4 pt-12">
+    <section className="pb-24 md:px-4">
+      <div className="z-0 mx-auto flex max-w-[1280px] overflow-hidden bg-[#fae0f5] px-4 pt-24 md:rounded-[2rem]">
         <div className="container z-[1]">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             {/* Col */}
@@ -54,4 +54,4 @@ const H2_CTA_Beta = () => {
   );
 };
 
-export default H2_CTA_Beta;
+export default D2_CTA_Charlie;
