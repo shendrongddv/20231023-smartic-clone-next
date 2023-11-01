@@ -178,3 +178,236 @@ export const dataServiceGuarantee = [
     },
   },
 ];
+
+// USER RELATED
+// Review
+export const dataReviewList = [
+  {
+    id: "1",
+    name: "John Smith",
+    bio: {
+      isMale: true,
+      age: 25,
+      city: "New York City",
+      media: null,
+    },
+    institution: {
+      name: "XYZ Company",
+      position: "Customer",
+      city: "New York City",
+      media: null,
+    },
+    review:
+      "Great online service platform! The user interface is user-friendly, and the platform offers a wide range of services. I highly recommend it.",
+    rating: 5,
+  },
+  {
+    id: "2",
+    name: "Emily Johnson",
+    bio: {
+      isMale: false,
+      age: 32,
+      city: "Los Angeles",
+      media: null,
+    },
+    institution: {
+      name: "ABC Corporation",
+      position: "Manager",
+      city: "Los Angeles",
+      media: null,
+    },
+    review:
+      "I have been using this online service platform for a while now, and I am extremely satisfied with the quality of service. The customer support team is also very responsive and helpful.",
+    rating: 4,
+  },
+  {
+    id: "3",
+    name: "Michael Brown",
+    bio: {
+      isMale: true,
+      age: 40,
+      city: "Chicago",
+      media: null,
+    },
+    institution: {
+      name: "DEF Enterprises",
+      position: "CEO",
+      city: "Chicago",
+      media: null,
+    },
+    review:
+      "I recently started using this online service platform for my business, and it has greatly improved our efficiency and productivity. The platform offers a seamless experience and has all the features we need.",
+    rating: 4.5,
+  },
+  {
+    id: "4",
+    name: "Sarah Davis",
+    bio: {
+      isMale: false,
+      age: 28,
+      city: "San Francisco",
+      media: null,
+    },
+    institution: {
+      name: "GHI Solutions",
+      position: "Freelancer",
+      city: "San Francisco",
+      media: null,
+    },
+    review:
+      "This online service platform has made my work so much easier. It has a great selection of tools and resources, and the platform is constantly updated with new features. I'm impressed!",
+    rating: 5,
+  },
+  {
+    id: "5",
+    name: "David Wilson",
+    bio: {
+      isMale: true,
+      age: 35,
+      city: "Seattle",
+      media: null,
+    },
+    institution: {
+      name: "JKL Innovations",
+      position: "Entrepreneur",
+      city: "Seattle",
+      media: null,
+    },
+    review:
+      "I've tried several online service platforms, but this one stands out. It offers competitive pricing and delivers high-quality service. The platform is very intuitive, and I haven't faced any issues so far.",
+    rating: 4,
+  },
+  {
+    id: "6",
+    name: "Olivia Taylor",
+    bio: {
+      isMale: false,
+      age: 27,
+      city: "Miami",
+      media: null,
+    },
+    institution: {
+      name: "MNO Ventures",
+      position: "Business Analyst",
+      city: "Miami",
+      media: null,
+    },
+    review:
+      "I highly recommend this online service platform to anyone looking for reliable and efficient services. The platform has exceeded my expectations, and I've had a great experience using it.",
+    rating: 4.5,
+  },
+  {
+    id: "7",
+    name: "Robert Johnson",
+    bio: {
+      isMale: true,
+      age: 45,
+      city: "Houston",
+      media: null,
+    },
+    institution: {
+      name: "PQR Solutions",
+      position: "Consultant",
+      city: "Houston",
+      media: null,
+    },
+    review:
+      "I've been using this online service platform for my consulting work, and it has been a game-changer. The platform offers advanced analytics and reporting tools, which have helped me deliver valuable insights to my clients.",
+    rating: 4.8,
+  },
+  {
+    id: "8",
+    name: "Sophia Anderson",
+    bio: {
+      isMale: false,
+      age: 30,
+      city: "Boston",
+      media: null,
+    },
+    institution: {
+      name: "STU Corporation",
+      position: "Marketing Manager",
+      city: "Boston",
+      media: null,
+    },
+    review:
+      "As a marketing professional, this online service platform has been a valuable resource for me. It provides comprehensive market research data and allows me to track the performance of my campaigns effectively.",
+    rating: 4.2,
+  },
+  {
+    id: "9",
+    name: "Daniel Martinez",
+    bio: {
+      isMale: true,
+      age: 38,
+      city: "Dallas",
+      media: null,
+    },
+    institution: {
+      name: "VWX Enterprises",
+      position: "Operations Manager",
+      city: "Dallas",
+      media: null,
+    },
+    review:
+      "I've been using this online service platform to streamline our operations, and it has been incredibly helpful. The platform offers powerful automation features and has significantly reduced manual work for our team.",
+    rating: 4.7,
+  },
+  {
+    id: "10",
+    name: "Ava Thompson",
+    bio: {
+      isMale: false,
+      age: 29,
+      city: "Atlanta",
+      media: null,
+    },
+    institution: {
+      name: "YZA Solutions",
+      position: "Software Engineer",
+      city: "Atlanta",
+      media: null,
+    },
+    review:
+      "As a software engineer, I rely on this online service platform for code collaboration and version control. It offers an excellent code review system and makes team collaboration seamless.",
+    rating: 4.5,
+  },
+  {
+    id: "11",
+    name: "Matthew Roberts",
+    bio: {
+      isMale: true,
+      age: 33,
+      city: "Phoenix",
+      media: null,
+    },
+    institution: {
+      name: "BCD Corporation",
+      position: "Financial Analyst",
+      city: "Phoenix",
+      media: null,
+    },
+    review:
+      "This online service platform has transformed the way I analyze financial data. It provides powerful data visualization tools and allows me to generate insightful reports quickly.",
+    rating: 4.3,
+  },
+  {
+    id: "12",
+    name: "Lily Green",
+    bio: {
+      isMale: false,
+      age: 31,
+      city: "Denver",
+      media: null,
+    },
+    institution: {
+      name: "EFG Innovations",
+      position: "Project Manager",
+      city: "Denver",
+      media: null,
+    },
+    review:
+      "I've been using this online service platform to manage my projects, and it has been a game-changer. The platform offers excellent collaboration features and keeps everything organized.",
+    rating: 4.6,
+  },
+];
