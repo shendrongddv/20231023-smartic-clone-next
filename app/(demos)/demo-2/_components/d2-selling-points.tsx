@@ -3,7 +3,7 @@ import { dataSellingPoints } from "../data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-const D2_Section_SellingPoints = () => {
+export const D2_Section_SellingPoints = () => {
   return (
     <section className="px-4 py-24">
       <div className="container">
@@ -52,5 +52,3 @@ const D2_Section_SellingPoints = () => {
     </section>
   );
 };
-
-export default D2_Section_SellingPoints;
