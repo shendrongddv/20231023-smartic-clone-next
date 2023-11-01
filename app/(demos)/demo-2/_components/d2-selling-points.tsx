@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const D2_Section_SellingPoints = () => {
   return (
-    <section className="px-4 pt-24">
+    <section className="px-4 py-24">
       <div className="container">
         <ul className="grid gap-24 md:mx-auto md:w-4/5">
           {dataSellingPoints?.map((item) => (
