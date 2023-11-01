@@ -1,3 +1,6 @@
+import { Card_Product_Beta } from "@/components/card/product-beta";
+import { dataProductList } from "../data";
+
 const H2_Section_Products = () => {
   return (
     <section className="px-4 py-24">
@@ -12,7 +15,20 @@ const H2_Section_Products = () => {
         </div>
 
         {/* List */}
-        <ul className="grid w-full gap-8 bg-slate-100 p-8 md:grid-cols-3"></ul>
+        <ul className="grid w-full gap-8 md:grid-cols-3">
+          {dataProductList?.map((item) => (
+            <li key={item.id}>
+              <Card_Product_Beta
+                title={item.title}
+                desc={item.desc}
+                priceOriginal={item.price.original}
+                mediaImage={item.media.image}
+                linkLabel={item.link.label}
+                linkUrl={item.link.url}
+              />
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

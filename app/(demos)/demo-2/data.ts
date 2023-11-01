@@ -7,6 +7,76 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
+// PRODUCT RELATED
+// ProductList
+export const dataProductList = [
+  {
+    id: "1",
+    title: "Smartic Basic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit, magna erat torquent augue faucibus bibendum elementum, libero interdum cursus eros nisl dapibus. Quisque porttitor ultrices ultricies fames pharetra sapien aliquet tellus taciti neque, orci cras a nunc eget dis.",
+    price: {
+      original: 499.99,
+      sale: null,
+    },
+    media: {
+      image: "02_product_1.png",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+  {
+    id: "2",
+    title: "Smartic X3",
+    desc: "Magna volutpat, auctor sed nisl ad placerat ac mi gravida vitae. Tellus justo nibh ante purus mauris torquent potenti, ultrices hac libero class proin ad. Aliquam vel vestibulum aenean conubia nascetur ultrices porttitor, eleifend erat tempor eget etiam pretium.",
+    price: {
+      original: 599.99,
+      sale: null,
+    },
+    media: {
+      image: "02_product_2.png",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+  {
+    id: "3",
+    title: "Smartic Pro",
+    desc: "Gravida aptent libero est rhoncus iaculis dui natoque, sociis auctor vestibulum cubilia nulla nam rutrum. Eget lacinia etiam id fusce elementum ultrices blandit augue, fames luctus curae eu sodales posuere donec pellentesque leo, enim varius lectus tortor.",
+    price: {
+      original: 699.99,
+      sale: null,
+    },
+    media: {
+      image: "02_product_3.png",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+];
 // Features
 export const dataFeatures = [
   {
@@ -74,5 +144,37 @@ export const dataSellingPoints = [
       url: "/",
     },
     media: "h2_img-5.png",
+  },
+];
+
+// SERVICE RELATED
+// ServiceGuarantee
+export const dataServiceGuarantee = [
+  {
+    id: 1,
+    title: "Fast & International Delivery",
+    desc: null,
+    media: {
+      image: "delivery.svg",
+      icon: null,
+    },
+  },
+  {
+    id: 2,
+    title: "15 Day for a Free Return",
+    desc: null,
+    media: {
+      image: "return.svg",
+      icon: null,
+    },
+  },
+  {
+    id: 3,
+    title: "Personal Customer Support",
+    desc: null,
+    media: {
+      image: "support.svg",
+      icon: null,
+    },
   },
 ];
