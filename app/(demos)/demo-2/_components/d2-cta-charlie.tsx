@@ -4,7 +4,7 @@ import { PlayCircle } from "lucide-react";
 
 const D2_CTA_Charlie = () => {
   return (
-    <section className="pb-24 md:px-4">
+    <section className="md:px-4">
       <div className="z-0 mx-auto flex max-w-[1280px] overflow-hidden bg-[#fae0f5] px-4 pt-24 md:rounded-[2rem] md:pt-12">
         <div className="container z-[1]">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
@@ -34,7 +34,7 @@ const D2_CTA_Charlie = () => {
                   alt="Image"
                   width={275}
                   height={395}
-                  className="mx-auto h-auto w-4/5 md:w-3/5"
+                  className="mx-auto h-auto w-3/5"
                 />
               </figure>
 

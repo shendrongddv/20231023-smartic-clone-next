@@ -1,7 +1,3 @@
-import H2_CTA_Beta from "./_components/h2-cta-beta";
-import H2_Section_Features, {
-  H2_Section_Features_2,
-} from "./_components/h2-features";
 import H2_Section_Guarantees from "./_components/h2-guarantees";
 import H2_Section_Hero from "./_components/h2-hero";
 import H2_Section_Products from "./_components/h2-products";
@@ -10,6 +6,7 @@ import D2_Section_WhatWeDo from "./_components/d2-what-we-do";
 import { D2_Section_SellingPoints } from "./_components/d2-selling-points";
 import D2_CTA_Alpha from "./_components/d2-cta-alpha";
 import D2_CTA_Charlie from "./_components/d2-cta-charlie";
+import D2_Section_Features from "./_components/d2-features";
 
 const Demo_2_Page = () => {
   return (
@@ -21,8 +18,7 @@ const Demo_2_Page = () => {
       <D2_Section_WhatWeDo />
 
       {/* Features */}
-      <H2_Section_Features />
-      <H2_Section_Features_2 />
+      <D2_Section_Features />
 
       {/* SellingPoints */}
       <D2_Section_SellingPoints />
@@ -43,9 +39,6 @@ const Demo_2_Page = () => {
 
       {/* Products */}
       <H2_Section_Products />
-
-      {/* CTA Beta */}
-      <H2_CTA_Beta />
 
       {/* CTA Charlie */}
       <D2_CTA_Charlie />
