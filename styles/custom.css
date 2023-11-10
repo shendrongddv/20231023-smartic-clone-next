@@ -16,3 +16,12 @@
   height: 30px;
   width: 42px;
 }
+
+/* Demo 5 */
+.d5-bg-1 {
+  background-image: url(/5/revslider_h5-bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, .2); */
+}
