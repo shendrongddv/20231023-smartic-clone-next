@@ -41,7 +41,7 @@ const D5_Section_Feature4 = () => {
       {/* Content */}
       <div className="container z-10 flex flex-col md:flex-row-reverse md:items-center md:justify-between">
         {/* Col */}
-        <div className="flex flex-col items-center gap-8 px-4 py-24 text-center max-md:order-last max-md:px-4 md:w-5/12 md:items-start md:text-start">
+        <div className="flex flex-col items-center gap-4 px-4 py-24 text-center max-md:order-last max-md:px-4 md:w-5/12 md:items-start md:text-start">
           <h2 className="text-3xl text-foreground md:text-5xl">
             Built with <span className="font-black">Inner Strength</span>
           </h2>
@@ -54,11 +54,8 @@ const D5_Section_Feature4 = () => {
 
           <ul className="grid w-full gap-2">
             {dataLists?.map((item) => (
-              <li
-                key={item.id}
-                className="flex flex-row gap-2 text-start md:items-center"
-              >
-                <CheckCircle className="mt-1 h-4 w-4 shrink-0 text-destructive" />
+              <li key={item.id} className="flex flex-row gap-2 text-start">
+                <CheckCircle className="mt-1.5 h-4 w-4 shrink-0 text-destructive" />
                 <p className="font-semibold">{item.title}</p>
               </li>
             ))}

@@ -35,7 +35,7 @@ const D5_Section_Feature2 = () => {
       {/* Content */}
       <div className="container z-10 flex flex-col md:flex-row-reverse md:items-center md:justify-between">
         {/* Col */}
-        <div className="flex flex-col items-center gap-8 px-4 py-24 text-center max-md:order-last max-md:px-4 md:w-5/12 md:items-start md:text-start">
+        <div className="flex flex-col items-center gap-4 px-4 py-24 text-center max-md:order-last max-md:px-4 md:w-5/12 md:items-start md:text-start">
           <h2 className="text-3xl text-foreground md:text-5xl">
             Set Up in Minutes with{" "}
             <span className="font-black">Smartphone</span>
@@ -47,7 +47,7 @@ const D5_Section_Feature2 = () => {
             ad minim veniam, quis nostrud exercitation ullamc
           </p>
 
-          <ul className="mt-2 grid w-full grid-cols-2 gap-2 md:w-max">
+          <ul className="mt-4 grid w-full grid-cols-2 gap-2 md:w-max">
             {dataLists?.map((item) => (
               <li
                 key={item.id}

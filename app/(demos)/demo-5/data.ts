@@ -41,3 +41,25 @@ export const dataWhatItDo = [
     image: "dummy-icon-4.svg",
   },
 ];
+
+// Reviews
+export const dataReviews = [
+  {
+    id: "49a72bd3-9936-51f4-b79e-294cb1a10d5f",
+    user: {
+      name: "Tracey L.",
+      city: "New York",
+    },
+    review:
+      "Love this bag. Perfect for what I need, and makes traveling on airplanes so much easier. Now I just grab my bag from under me and leave the plane. Truly awesome. I looked for a long time, but I finally found my bag!",
+  },
+  {
+    id: "f59dd153-321f-50bf-89e0-098161b6ee3e",
+    user: {
+      name: "William Smith",
+      city: "Miami",
+    },
+    review:
+      "First try and you can feel the difference, feels clean, pure. Noticed that other brand was giving me headaches after drinking it so changed to Naked. Unflavored actually taste like nothing so... Great!",
+  },
+];
