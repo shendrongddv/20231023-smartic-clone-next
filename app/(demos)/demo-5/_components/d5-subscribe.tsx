@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 const D5_Section_Subscribe = () => {
   return (
-    <section className="bg-slate-100 px-4 py-16">
+    <section className="bg-slate-200 px-4 py-16">
       <div className="container flex flex-col items-center gap-12 text-center md:flex-row md:justify-between md:text-start">
         {/* Col */}
         <div className="flex w-full flex-col items-center gap-4 md:w-3/5 md:flex-row">
@@ -16,7 +16,10 @@ const D5_Section_Subscribe = () => {
               placeholder="Enter your email..."
               className="border-transparent"
             />
-            <Button type="submit" className="w-full md:w-max">
+            <Button
+              type="submit"
+              className="w-full bg-[#37C69A] hover:bg-[#37C69A]/80 md:w-max"
+            >
               Subscribe
             </Button>
           </div>

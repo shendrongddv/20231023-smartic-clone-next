@@ -21,7 +21,7 @@ const D5_Section_ShopNow = () => {
         {/* Col */}
         <div className="flex flex-col items-center gap-8 px-4 py-24 text-center max-md:order-last max-md:px-4 md:w-6/12">
           {/* Product */}
-          <div className="flex flex-col items-center gap-2 text-center md:w-3/5">
+          <div className="flex w-3/5 flex-col items-center gap-2 text-center">
             <figure>
               <Image
                 src="/5/image3-h5.png"
