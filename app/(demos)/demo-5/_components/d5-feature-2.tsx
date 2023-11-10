@@ -26,7 +26,7 @@ const D5_Section_Feature2 = () => {
         className="absolute inset-0 z-0 hidden md:grid md:grid-cols-2"
       >
         {/* Col */}
-        <div className="bg-[url(/5/bg2-h5.jpg)] bg-cover bg-center bg-no-repeat"></div>
+        <div className="bg-[url(/5/bg2-h5.webp)] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Col */}
         <div></div>
@@ -75,7 +75,7 @@ const D5_Section_Feature2 = () => {
         {/* Col */}
         <div
           aria-hidden
-          className="flex aspect-1 bg-[url(/5/bg2-h5.jpg)] bg-cover bg-center bg-no-repeat md:hidden md:w-6/12"
+          className="flex aspect-1 bg-[url(/5/bg2-h5.webp)] bg-cover bg-center bg-no-repeat md:hidden md:w-6/12"
         ></div>
       </div>
     </section>

@@ -6,7 +6,7 @@ const D5_Section_intro = () => {
       {/* Background */}
       <div aria-hidden className="absolute inset-0 z-0 grid md:grid-cols-2">
         {/* Col */}
-        <div className="bg-[url(/5/image2_h5.jpg)] bg-cover bg-center bg-no-repeat"></div>
+        <div className="bg-[url(/5/image2_h5.webp)] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Col */}
         <div className="bg-white"></div>

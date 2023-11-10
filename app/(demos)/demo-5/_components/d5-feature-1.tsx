@@ -23,7 +23,7 @@ const D5_Section_Feature1 = () => {
         <div></div>
 
         {/* Col */}
-        <div className="bg-[url(/5/bg1-h5.jpg)] bg-cover bg-center bg-no-repeat"></div>
+        <div className="bg-[url(/5/bg1-h5.webp)] bg-cover bg-center bg-no-repeat"></div>
       </div>
 
       {/* Content */}
@@ -50,7 +50,7 @@ const D5_Section_Feature1 = () => {
         {/* Col */}
         <div
           aria-hidden
-          className="flex aspect-1 bg-[url(/5/bg1-h5.jpg)] bg-cover bg-center bg-no-repeat md:hidden md:w-6/12"
+          className="flex aspect-1 bg-[url(/5/bg1-h5.webp)] bg-cover bg-center bg-no-repeat md:hidden md:w-6/12"
         ></div>
       </div>
     </section>
