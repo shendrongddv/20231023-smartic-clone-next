@@ -7,6 +7,7 @@ import D5_Section_Feature4 from "./_components/d5-feature-4";
 import D5_Section_Feature3 from "./_components/d5-feature-3";
 import D5_Section_Feature1 from "./_components/d5-feature-1";
 import D5_Section_Feature2 from "./_components/d5-feature-2";
+import D5_Section_Subscribe from "./_components/d5-subscribe";
 
 const Demo_0_Page = () => {
   return (
@@ -38,7 +39,8 @@ const Demo_0_Page = () => {
       {/* ShopNow */}
       <D5_Section_ShopNow />
 
-      {/* CTA */}
+      {/* Subscribe */}
+      <D5_Section_Subscribe />
     </>
   );
 };
