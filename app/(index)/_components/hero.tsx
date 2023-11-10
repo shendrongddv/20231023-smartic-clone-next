@@ -67,7 +67,9 @@ export const Section_Hero_Alpha = () => {
 
 // Hero Beta
 export const Section_Hero_Beta = () => {
-  const sortDataPortfolios = dataPortfolios.sort((a, b) => b.id - a.id);
+  const sortDataPortfolios = dataPortfolios.sort(
+    (a, b) => b.ceatedAt - a.ceatedAt,
+  );
 
   return (
     <section className="px-4 py-12">
@@ -103,7 +105,9 @@ export const Section_Hero_Beta = () => {
                 </Link>
 
                 <div className="flex items-center justify-center text-clip">
-                  <p className="text-xs font-medium md:text-sm">{item.title}</p>
+                  <p className="text-xs font-semibold md:text-sm">
+                    {item.title}
+                  </p>
                 </div>
 
                 <Link
