@@ -10,20 +10,20 @@ const D6_Section_Intro = () => {
             A True Premier Coffee Brand
           </h2>
 
-          <span aria-hidden className="h-1 w-24 bg-destructive"></span>
+          <span aria-hidden className="h-0.5 w-24 bg-destructive"></span>
         </div>
 
         {/* Row */}
         <div className="flex w-full flex-col gap-8 md:w-4/5 md:flex-row md:items-center md:justify-between">
           {/* Col */}
           <div className="md:w-4/12">
-            <figure className="mx-auto w-3/5 md:w-full">
+            <figure className="mx-auto w-3/5 border md:w-full">
               <Image
                 src="/6/h6_img-1.webp"
                 alt="Image"
                 width={240}
                 height={414}
-                className="h-full w-auto"
+                className="h-full w-auto border"
               />
             </figure>
           </div>

@@ -16,32 +16,29 @@ const D6_Section_Categories = () => {
         </div>
 
         {/* Row */}
-        <ul className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
+        <ul className="grid w-full gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
           {dataProductCategories?.map((item) => (
             <li
               key={item.id}
-              className="flex flex-col items-center text-center"
+              className="flex items-center justify-between gap-4 max-md:even:flex-row-reverse md:flex-col"
             >
-              <figure
-                className={cn(
-                  "grid aspect-1 w-full place-content-center bg-contain bg-center bg-no-repeat",
-                  item.bg !== null ? "bg-[url(/6/H6_shape-1.webp)]" : "",
-                )}
-              >
+              <figure aria-hidden className="w-4/12 md:w-3/5">
                 <Image
                   src={`/6/${item.media}`}
                   alt={item.title}
                   width={230}
                   height={310}
-                  className="mx-auto h-auto w-full"
+                  className="h-auto w-full"
                 />
               </figure>
 
-              <h3 className="mt-4 font-anton text-lg font-bold text-black md:text-xl">
-                {item.title}
-              </h3>
+              <div className="flex w-6/12 flex-col md:w-4/5 md:items-center md:text-center">
+                <h3 className="mt-4 font-anton text-lg font-bold text-black md:text-xl">
+                  {item.title}
+                </h3>
 
-              <p>{item.desc}</p>
+                <p>{item.desc}</p>
+              </div>
             </li>
           ))}
         </ul>

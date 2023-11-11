@@ -21,7 +21,7 @@ const D6_Section_Hero = () => {
             />
           </figure>
 
-          <h2 className="font-anton text-3xl text-white md:text-5xl">
+          <h2 className="font-anton text-4xl text-white md:text-5xl">
             Cofee from the Best Roasters Delivered Directly to Your Door
           </h2>
 
