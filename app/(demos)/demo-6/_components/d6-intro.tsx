@@ -14,23 +14,23 @@ const D6_Section_Intro = () => {
         </div>
 
         {/* Row */}
-        <div className="flex w-full flex-col gap-8 md:w-4/5 md:flex-row md:items-center md:justify-between">
+        <div className="flex w-full flex-col gap-12 md:w-4/5 md:flex-row md:items-center md:justify-between">
           {/* Col */}
           <div className="md:w-4/12">
-            <figure className="mx-auto w-3/5 border md:w-full">
+            <figure>
               <Image
                 src="/6/h6_img-1.webp"
                 alt="Image"
                 width={240}
                 height={414}
-                className="h-full w-auto border"
+                className="mx-auto w-3/5 md:w-full"
               />
             </figure>
           </div>
 
           {/* Col */}
           <div className="md:w-7/12">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col items-center gap-4 text-center md:items-start md:text-start">
               <h3 className="font-semibold uppercase text-black">
                 The History
               </h3>
