@@ -1,6 +1,6 @@
 const D6_Section_Gallery = () => {
   return (
-    <section className="bg-[url(/6/h6_bg.jpg)] bg-cover bg-center bg-no-repeat px-4 pt-24">
+    <section className="bg-[url(/6/h6_bg.webp)] bg-cover bg-center bg-no-repeat px-4 pt-24">
       <div className="container flex flex-col items-center gap-12">
         {/* Row */}
         <div className="flex flex-col items-center gap-2 text-center md:w-4/5">

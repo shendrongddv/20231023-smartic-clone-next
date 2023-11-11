@@ -23,6 +23,99 @@ export const dataProductCategories = [
   },
 ];
 
+// PRODUCT RELATED
+// ProductList
+export const dataProductList = [
+  {
+    id: 1,
+    title: "Espresso Forte",
+    desc: null,
+    price: {
+      original: 760.16,
+      sale: null,
+    },
+    media: {
+      image: "06_product_1-500x600.webp",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+  {
+    id: 2,
+    title: "Caramel",
+    desc: null,
+    price: {
+      original: 849.11,
+      sale: null,
+    },
+    media: {
+      image: "06_product_2-500x600.webp",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+  {
+    id: 3,
+    title: "Espresso Decaffeinato",
+    desc: null,
+    price: {
+      original: 403.75,
+      sale: null,
+    },
+    media: {
+      image: "06_product_3-500x600.webp",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+  {
+    id: 4,
+    title: "Latte Macchiato",
+    desc: null,
+    price: {
+      original: 403.75,
+      sale: null,
+    },
+    media: {
+      image: "06_product_1-500x600.webp",
+    },
+    link: {
+      label: "Add to Card",
+      url: "/",
+    },
+    meta: {
+      isSale: false,
+      inStock: true,
+      isFeature: false,
+      rating: 4,
+    },
+  },
+];
+
 // Guarantees
 export const dataGuarantees = [
   {

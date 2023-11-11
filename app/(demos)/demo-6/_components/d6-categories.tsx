@@ -37,7 +37,7 @@ const D6_Section_Categories = () => {
                 {/* Decor */}
                 <Image
                   aria-hidden
-                  src="/6/h6_shape-2.webp"
+                  src={`/6/${item.bg}`}
                   alt="Decoration"
                   width={320}
                   height={320}
