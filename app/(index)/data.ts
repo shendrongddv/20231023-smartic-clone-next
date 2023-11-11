@@ -61,6 +61,16 @@ export const dataPortfolios = [
     media: "ldp_home-5.jpg",
   },
   {
+    id: 6,
+    ceatedAt: 20231112,
+    title: "Demo 6",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-6/",
+      clone: "demo-6",
+    },
+    media: "ldp_home-6.jpg",
+  },
+  {
     id: 37,
     ceatedAt: 20231108,
     title: "Demo 37",
