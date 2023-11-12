@@ -28,7 +28,7 @@ const D8_Section_Features = () => {
                   alt={item.title}
                   width={64}
                   height={64}
-                  className="w-auto scale-50 transition duration-500 group-hover:scale-90"
+                  className="w-auto scale-50 transition duration-500 group-hover:scale-75"
                 />
               </figure>
 

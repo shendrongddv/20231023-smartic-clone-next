@@ -22,7 +22,7 @@ const D8_Section_ShopNow = () => {
     <section className="bg-[url(/8/h8_bg.webp)] bg-cover bg-center bg-no-repeat px-4 py-24">
       <div className="container">
         <div className="flex flex-col gap-4 md:ml-auto md:w-4/12">
-          <div className="flex flex-col items-center gap-4 max-md:bg-background/90 max-md:p-4 max-md:py-12 md:items-start md:text-start">
+          <div className="flex flex-col items-center gap-8 rounded-2xl bg-background/90 p-4 py-8 md:items-start md:px-6 md:text-start">
             {/* # */}
             <span className="font-bold text-destructive">Buy Now</span>
 
@@ -37,7 +37,7 @@ const D8_Section_ShopNow = () => {
                 <span className="text-3xl font-bold text-destructive md:text-4xl">
                   $724.47
                 </span>
-                <span className="text-sm text-destructive">In Stock</span>
+                <span className="text-sm">In Stock</span>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ const D8_Section_ShopNow = () => {
               {dataGuarantees?.map((item, index) => (
                 <li
                   key={index}
-                  className="flex flex-col items-center gap-2 px-2 text-center text-xs md:text-sm"
+                  className="flex flex-col items-center gap-2 px-2 text-center text-sm"
                 >
                   {/* ## */}
                   <Image
