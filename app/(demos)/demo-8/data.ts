@@ -182,13 +182,52 @@ export const dataProducts = [
 // Reviews
 export const dataReviews = [
   {
-    id: "49a72bd3-9936-51f4-b79e-294cb1a10d5f",
-    user: {
-      name: "Tracey L.",
-      city: "New York",
-    },
+    id: 1,
+    isMale: true,
+    name: "John Doe",
+    city: "New York",
     review:
-      "Love this bag. Perfect for what I need, and makes traveling on airplanes so much easier. Now I just grab my bag from under me and leave the plane. Truly awesome. I looked for a long time, but I finally found my bag!",
+      "I absolutely love this product! It's incredibly easy to use and provides accurate results. The design is sleek and modern, making it a great addition to any home. Highly recommend!",
+  },
+  {
+    id: 2,
+    isMale: false,
+    name: "Jane Smith",
+    city: "London",
+    review:
+      "I've been using this product for a few weeks now and I'm very impressed. It's user-friendly and the results are reliable. The compact size allows me to carry it anywhere. Definitely worth the investment!",
+  },
+  {
+    id: 3,
+    isMale: true,
+    name: "Michael Johnson",
+    city: "Los Angeles",
+    review:
+      "As a busy professional, I appreciate the convenience of this product. It provides accurate readings without any hassle. The no-contact feature is a game-changer. Highly recommended for anyone seeking a reliable thermometer.",
+  },
+  {
+    id: 4,
+    isMale: false,
+    name: "Emily Wilson",
+    city: "Sydney",
+    review:
+      "I bought this product for my family and it has been a great addition to our household. The readings are quick and accurate, and the device is easy to use. I love the sleek design as well. Highly satisfied!",
+  },
+  {
+    id: 5,
+    isMale: true,
+    name: "David Lee",
+    city: "Tokyo",
+    review:
+      "I've tried multiple thermometers in the past, but this one stands out. It's incredibly user-friendly and the readings are consistent. The no-contact feature is perfect for my little one. Couldn't be happier with this purchase!",
+  },
+  {
+    id: 6,
+    isMale: false,
+    name: "Sophia Chen",
+    city: "Shanghai",
+    review:
+      "This thermometer has exceeded my expectations. It's accurate, easy to use, and the results are displayed quickly. The compact size makes it convenient for travel. I highly recommend it to all parents!",
   },
 ];
 
@@ -203,5 +242,45 @@ export const dataSellingPoints = [
       url: "/",
     },
     media: "h2_img-6.png",
+  },
+];
+
+// LogoClouds
+export const dataLogoClouds = [
+  {
+    id: 11,
+  },
+  {
+    id: 12,
+  },
+  {
+    id: 13,
+  },
+  {
+    id: 14,
+  },
+  {
+    id: 15,
+  },
+  {
+    id: 16,
+  },
+  {
+    id: 17,
+  },
+  {
+    id: 18,
+  },
+  {
+    id: 39,
+  },
+  {
+    id: 63,
+  },
+  {
+    id: 86,
+  },
+  {
+    id: 87,
   },
 ];

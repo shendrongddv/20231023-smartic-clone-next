@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const D8_Section_Values = () => {
   return (
-    <section className="bg-gradient-to-b from-slate-100 to-transparent px-4 pb-24">
+    <section className="bg-gradient-to-b from-slate-100 to-transparent px-4">
       <ul className="container grid w-full gap-12 md:w-4/5">
         {dataProductValues?.map((item) => (
           <li
