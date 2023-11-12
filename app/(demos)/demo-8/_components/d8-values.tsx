@@ -19,7 +19,7 @@ const D8_Section_Values = () => {
                   alt={item.title}
                   width={480}
                   height={480}
-                  className="mx-auto w-3/5 md:w-full"
+                  className="mx-auto w-4/5 mix-blend-multiply md:w-full"
                 />
               </figure>
             </div>
@@ -36,7 +36,10 @@ const D8_Section_Values = () => {
                 {item.details.length > 0 && (
                   <ul className="grid w-full gap-2">
                     {item.details.map((item, index) => (
-                      <li key={index} className="flex items-center gap-2">
+                      <li
+                        key={index}
+                        className="flex items-center justify-center gap-2 text-black md:justify-start"
+                      >
                         <CheckCircle2 className="mt-0.5 h-4 w-4 text-destructive" />
                         {item}
                       </li>
