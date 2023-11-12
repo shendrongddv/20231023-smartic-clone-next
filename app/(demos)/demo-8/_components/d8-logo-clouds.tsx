@@ -6,7 +6,7 @@ const D8_Section_LogoClouds = () => {
   return (
     <section className="pb-24 md:px-4">
       <div className="container flex flex-col items-center gap-8">
-        <Marquee direction="left">
+        <Marquee direction="left" gradient>
           {dataLogoClouds?.slice(0, 6)?.map((item) => (
             <figure key={item.id} className="px-6 py-4 md:px-12">
               <Image
@@ -20,7 +20,7 @@ const D8_Section_LogoClouds = () => {
           ))}
         </Marquee>
 
-        <Marquee direction="right" className="-mt-4">
+        <Marquee direction="right" gradient className="-mt-4">
           {dataLogoClouds?.slice(6, 12)?.map((item) => (
             <figure key={item.id} className="px-6 py-4 md:px-12">
               <Image
