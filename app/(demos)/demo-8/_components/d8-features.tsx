@@ -22,7 +22,7 @@ const D8_Section_Features = () => {
               className="group flex flex-col items-center gap-2 rounded-2xl bg-background p-4 text-center transition duration-500 hover:shadow-lg md:p-6"
             >
               {/* # */}
-              <figure className="grid aspect-1 h-20 place-content-center overflow-hidden rounded-full bg-slate-100 transition duration-500 group-hover:bg-background">
+              <figure className="grid aspect-1 h-16 place-content-center overflow-hidden rounded-full bg-slate-100 transition duration-500 group-hover:bg-background md:h-20">
                 <Image
                   src={`/dummy/${item.icon}`}
                   alt={item.title}

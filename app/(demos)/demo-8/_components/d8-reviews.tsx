@@ -2,7 +2,7 @@ import { D8_Slider_Review } from "./d8-review-slider";
 
 const D8_Section_Reviews = () => {
   return (
-    <section className="px-4 py-24">
+    <section className="py-24 md:px-4">
       <div className="container flex flex-col items-center gap-12">
         {/* Row */}
         <div className="mx-auto flex flex-col items-center gap-2 text-center md:w-3/5">

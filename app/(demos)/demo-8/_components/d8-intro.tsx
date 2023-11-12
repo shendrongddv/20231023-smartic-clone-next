@@ -23,26 +23,26 @@ const D8_Section_Intro = () => {
         </div>
 
         {/* Row */}
-        <div className="grid w-full gap-4 md:w-4/5 md:grid-cols-2">
+        <div className="grid w-full grid-cols-2 gap-2 md:w-4/5 md:gap-8">
           {/* Col */}
-          <figure className="aspect-h-3 aspect-w-4 grid place-content-center overflow-hidden rounded-2xl">
+          <figure className="group aspect-h-3 aspect-w-4 grid place-content-center overflow-hidden rounded-2xl">
             <Image
               src="/8/h8_img-1.webp"
               alt="Image"
               width={410}
               height={240}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
             />
           </figure>
 
           {/* Col */}
-          <figure className="aspect-h-3 aspect-w-4 grid place-content-center overflow-hidden rounded-2xl">
+          <figure className="group aspect-h-3 aspect-w-4 grid place-content-center overflow-hidden rounded-2xl">
             <Image
               src="/8/h8_img-2.webp"
               alt="Image"
               width={410}
               height={240}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
             />
           </figure>
         </div>

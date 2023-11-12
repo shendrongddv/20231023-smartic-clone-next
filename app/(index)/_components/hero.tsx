@@ -34,11 +34,24 @@ const Hero = () => {
             WordPress, but I am rebuilding it with Next.js and Tailwind CSS.
           </p>
 
-          <Button asChild variant="outline" className="mt-4 px-6">
-            <Link href="#demos" aria-label="View All Demos">
-              View All Demos
-            </Link>
-          </Button>
+          <div className="flex gap-2">
+            <Button asChild variant="outline" className="px-6">
+              <Link href="#demos" aria-label="View All Demos">
+                View All Demos
+              </Link>
+            </Button>
+
+            <Button asChild variant="default" className="px-6">
+              <Link
+                href="https://github.com/shendrongddv/20231023-smartic-clone-next"
+                aria-label="View on GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

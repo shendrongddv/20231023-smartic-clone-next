@@ -43,7 +43,7 @@ export const D8_Slider_Review = () => {
     >
       {dataReviews?.map((item) => (
         <SwiperSlide key={item.id} className="BBB">
-          <div className="CCC flex flex-col items-center gap-4 text-center max-md:px-4">
+          <div className="CCC flex h-full flex-col items-center gap-4 text-center max-md:px-4">
             {/* Avatar */}
             <div className="aspect-1 h-16 overflow-hidden rounded-full border-2 border-white bg-slate-500 shadow-lg">
               <Image
@@ -58,12 +58,12 @@ export const D8_Slider_Review = () => {
             </div>
 
             {/* Review */}
-            <p className="mt-2 font-medium text-black md:text-lg">
+            <p className="my-2 font-medium text-black md:text-lg">
               &quot;{item.review}&quot;
             </p>
 
             {/* Rating */}
-            <div className="mt-2 flex gap-1 text-destructive">
+            <div className="mt-auto flex gap-1 text-destructive">
               <BsStarFill className="h-4 w-4" />
               <BsStarFill className="h-4 w-4" />
               <BsStarFill className="h-4 w-4" />

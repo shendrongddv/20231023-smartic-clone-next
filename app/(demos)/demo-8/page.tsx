@@ -3,6 +3,7 @@ import D8_Section_Hero from "./_components/d8-hero";
 import D8_Section_Intro from "./_components/d8-intro";
 import D8_Section_LogoClouds from "./_components/d8-logo-clouds";
 import D8_Section_Reviews from "./_components/d8-reviews";
+import D8_Section_ShopNow from "./_components/d8-shop-now";
 import D8_Section_Values from "./_components/d8-values";
 
 const Demo_8_Page = () => {
@@ -26,7 +27,8 @@ const Demo_8_Page = () => {
       {/* LogoClouds */}
       <D8_Section_LogoClouds />
 
-      {/* CTA */}
+      {/* ShopNow */}
+      <D8_Section_ShopNow />
     </>
   );
 };
