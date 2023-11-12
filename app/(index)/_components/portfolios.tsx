@@ -21,10 +21,7 @@ const Portfolio = () => {
             <span className="font-lora italic text-destructive">Unique</span>{" "}
             Prebuilt Demos
           </h2>
-          <p>
-            {dataPortfolios.length}/50 completed, the rest will follow 🤞 Not
-            sure 😁
-          </p>
+          <p>{dataPortfolios.length}/50 completed, the rest 🤞</p>
         </div>
 
         {/* Row */}

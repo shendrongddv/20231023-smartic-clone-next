@@ -31,16 +31,6 @@ export const dataPortfolios = [
     media: "ldp_home-3.jpg",
   },
   {
-    id: 7,
-    ceatedAt: 20231104,
-    title: "Demo 7",
-    url: {
-      original: "https://demo2.wpopal.com/smartic/home-7/",
-      clone: "demo-7",
-    },
-    media: "ldp_home-7.jpg",
-  },
-  {
     id: 4,
     ceatedAt: 20231109,
     title: "Demo 4",
@@ -69,6 +59,26 @@ export const dataPortfolios = [
       clone: "demo-6",
     },
     media: "ldp_home-6.jpg",
+  },
+  {
+    id: 7,
+    ceatedAt: 20231104,
+    title: "Demo 7",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-7/",
+      clone: "demo-7",
+    },
+    media: "ldp_home-7.jpg",
+  },
+  {
+    id: 8,
+    ceatedAt: 20231113,
+    title: "Demo 8",
+    url: {
+      original: "https://demo2.wpopal.com/smartic/home-8/",
+      clone: "demo-8",
+    },
+    media: "ldp_home-8.jpg",
   },
   {
     id: 37,
