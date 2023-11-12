@@ -1,10 +1,14 @@
-import { Section_Hero_Beta } from "./_components/hero";
+import Hero from "./_components/hero";
+import Portfolio from "./_components/portfolios";
 
 const IndexPage = () => {
   return (
     <>
-      {/* Hero Beta */}
-      <Section_Hero_Beta />
+      {/* Hero */}
+      <Hero />
+
+      {/* Portfolios */}
+      <Portfolio />
     </>
   );
 };

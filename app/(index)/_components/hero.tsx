@@ -1,129 +1,38 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-import { dataPortfolios } from "../data";
-
-import { Button, buttonVariants } from "@/components/ui/button";
-import { MoveUpLeft, MoveUpRight } from "lucide-react";
-import { cn } from "@/lib/utils";
-
-// Hero Alpha
-export const Section_Hero_Alpha = () => {
+const Hero = () => {
   return (
-    <section className="px-4 py-24">
-      <div className="container">
-        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8">
-          {dataPortfolios?.map((item) => (
-            <li key={item.id} className="group grid gap-2">
-              <figure className="aspect-h-3 aspect-w-4 flex w-full justify-center overflow-hidden rounded-lg border shadow-lg transition duration-300 group-hover:shadow-xl">
-                <Image
-                  src={`/thumbnail/${item.media}`}
-                  alt={item.title}
-                  width={526}
-                  height={380}
-                  className="h-full w-auto object-cover"
-                />
-              </figure>
-
-              <div className="flex items-center justify-center divide-x">
-                <Button
-                  asChild
-                  variant="link"
-                  size="sm"
-                  className="h-max rounded-none py-1"
-                >
-                  <Link
-                    href={item.url.original}
-                    aria-label={item.title}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Original
-                  </Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="link"
-                  size="sm"
-                  className="h-max rounded-none py-1"
-                >
-                  <Link
-                    href={item.url.clone}
-                    aria-label={item.title}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Clone
-                  </Link>
-                </Button>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  );
-};
-
-// Hero Beta
-export const Section_Hero_Beta = () => {
-  const sortDataPortfolios = dataPortfolios.sort(
-    (a, b) => b.ceatedAt - a.ceatedAt,
-  );
-
-  return (
-    <section className="px-4 py-12">
-      <div className="container">
+    <section className="relative flex bg-[url(/0/ldp2-bg.webp)] bg-cover bg-top bg-no-repeat px-4 py-24">
+      {/* Overlay */}
+      <span className="absolute inset-0 bg-black bg-opacity-50"></span>
+      {/* Content */}
+      <div className="container z-10">
         {/* Row */}
-        <ul className="grid grid-cols-2 gap-x-2 gap-y-4 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 md:gap-8">
-          {sortDataPortfolios?.map((item) => (
-            <li
-              key={item.id}
-              className="group grid gap-1 rounded-xl border bg-background p-1 shadow-lg md:gap-2 md:p-2"
-            >
-              {/* Col */}
-              <figure className="aspect-h-3 aspect-w-4 overflow-hidden rounded-lg border">
-                <Image
-                  src={`/thumbnail/${item.media}`}
-                  alt={item.title}
-                  width={560}
-                  height={400}
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
-                />
-              </figure>
+        <div className="mx-auto flex flex-col items-center gap-8 text-center md:w-4/5">
+          <h1 className="font-bromny text-5xl text-white md:text-7xl">
+            An Outstanding{" "}
+            <span className="font-lora italic text-destructive">
+              Product Landing Page
+            </span>{" "}
+            Theme
+          </h1>
 
-              {/* Col */}
-              <div className="flex items-center justify-between gap-2">
-                <Link
-                  href={item.url.original}
-                  aria-label="Link to Original Version"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border border-white bg-slate-100 text-foreground shadow hover:bg-rose-500 hover:text-white"
-                >
-                  <MoveUpLeft className="h-3 w-3" />
-                </Link>
+          <p className="text-lg text-white md:w-3/5">
+            Smartic is a really creative & modern Product Landing Page
+            WooCommerce Theme with a premier appeal built with powerful
+            Elementor page builder.
+          </p>
 
-                <div className="flex items-center justify-center text-clip">
-                  <p className="text-xs font-semibold md:text-sm">
-                    {item.title}
-                  </p>
-                </div>
-
-                <Link
-                  href={item.url.clone}
-                  aria-label="Link to Clone Version"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border-1 flex aspect-1 h-7 items-center justify-center rounded-lg border border-white bg-slate-100 text-foreground shadow hover:bg-indigo-600 hover:text-white"
-                >
-                  <MoveUpRight className="h-3 w-3" />
-                </Link>
-              </div>
-            </li>
-          ))}
-        </ul>
+          <Button asChild variant="outline" className="mt-4 px-6">
+            <Link href="#demos" aria-label="View All Demos">
+              View All Demos
+            </Link>
+          </Button>
+        </div>
       </div>
     </section>
   );
 };
+
+export default Hero;
