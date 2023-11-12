@@ -34,7 +34,7 @@ const Hero = () => {
             WordPress, but I am rebuilding it with Next.js and Tailwind CSS.
           </p>
 
-          <div className="flex gap-2">
+          <div className="mt-4 flex gap-2">
             <Button asChild variant="outline" className="px-6">
               <Link href="#demos" aria-label="View All Demos">
                 View All Demos
