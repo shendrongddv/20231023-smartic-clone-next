@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { dataProductValues } from "../data";
+import { CheckCircle2 } from "lucide-react";
 
 const D8_Section_Values = () => {
   return (
@@ -31,6 +32,17 @@ const D8_Section_Values = () => {
                 </h3>
 
                 <p>{item.desc}</p>
+
+                {item.details.length > 0 && (
+                  <ul className="grid w-full gap-2">
+                    {item.details.map((item, index) => (
+                      <li key={index} className="flex items-center gap-2">
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-destructive" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           </li>
