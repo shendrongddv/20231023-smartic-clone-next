@@ -17,11 +17,14 @@ const Portfolio = () => {
             50
             <span className="text-6xl md:text-7xl">+</span>
           </span>
-          <h2 className="mt-2 font-bromny text-3xl text-black md:text-5xl">
+          <h2 className="font-bromny text-3xl text-black md:text-5xl">
             <span className="font-lora italic text-destructive">Unique</span>{" "}
             Prebuilt Demos
           </h2>
-          <p>and more demos comingsoon</p>
+          <p>
+            {dataPortfolios.length}/50 completed, the rest will follow 🤞 Not
+            sure 😁
+          </p>
         </div>
 
         {/* Row */}
