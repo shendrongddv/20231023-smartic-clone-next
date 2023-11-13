@@ -88,8 +88,7 @@ export const dataPortfolios = [
       original: "https://demo2.wpopal.com/smartic/home-11/",
       clone: "demo-11",
     },
-    // media: "ldp_home-11.jpg",
-    media: "comming-soon.jpg",
+    media: "ldp_home-11.jpg",
   },
   {
     id: 37,
