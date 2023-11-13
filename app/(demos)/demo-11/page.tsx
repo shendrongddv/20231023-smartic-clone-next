@@ -5,6 +5,7 @@ import D11_Section_ShopNow from "./_components/d11-shop-now";
 import D11_Section_Point1 from "./_components/d11-point-1";
 import D11_Section_Point2 from "./_components/d11-point-2";
 import D11_Section_Point3 from "./_components/d11-point-3";
+import D11_Section_Test from "./_components/d11-point-test";
 
 const Demo_11_Page = () => {
   return (

@@ -36,7 +36,7 @@ const D11_Section_Differentiate = () => {
                   alt="Decoration"
                   width={480}
                   height={480}
-                  className="h-auto w-full scale-90 transition duration-500 group-hover:scale-105"
+                  className="h-auto w-full transition duration-500 group-hover:scale-105"
                 />
               </figure>
 
