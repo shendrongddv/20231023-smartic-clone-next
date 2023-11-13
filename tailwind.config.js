@@ -61,12 +61,16 @@ module.exports = {
         bebasneue: "var(--bebas-neue)",
         bromny: "var(--bromny)",
         fahkwang: "var(--fahkwang)",
+        grenzegotisch: "var(--grenze-gotisch)",
         inter: "var(--inter)",
         kanit: "var(--kanit)",
         lora: "var(--lora)",
+        marcellus: "var(--marcellus)",
         playfairdisplay: "var(--playfair-display)",
+        redrose: "var(--red-rose)",
         spectralsc: "var(--spectral-sc)",
         teko: "var(--teko)",
+        yellowtail: "var(--yellowtail)",
       },
       keyframes: {
         "accordion-down": {

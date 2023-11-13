@@ -2,12 +2,16 @@ import {
   Anton,
   Bebas_Neue,
   Fahkwang,
+  Grenze_Gotisch,
   Inter,
   Kanit,
   Lora,
+  Marcellus,
   Playfair_Display,
+  Red_Rose,
   Spectral_SC,
   Teko,
+  Yellowtail,
 } from "next/font/google";
 import localFont from "next/font/local";
 
@@ -34,6 +38,11 @@ export const fontFahkwang = Fahkwang({
   variable: "--fahkwang",
 });
 
+export const fontGrenzeGotisch = Grenze_Gotisch({
+  subsets: ["latin"],
+  variable: "--grenze-gotisch",
+});
+
 export const fontInter = Inter({
   subsets: ["latin"],
   variable: "--inter",
@@ -50,9 +59,20 @@ export const fontLora = Lora({
   variable: "--lora",
 });
 
+export const fontMarcellus = Marcellus({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--marcellus",
+});
+
 export const fontPlayfairDisplay = Playfair_Display({
   subsets: ["latin"],
   variable: "--playfair-display",
+});
+
+export const fontRedRose = Red_Rose({
+  subsets: ["latin"],
+  variable: "--red-rose",
 });
 
 export const fontSpectral = Spectral_SC({
@@ -64,4 +84,10 @@ export const fontSpectral = Spectral_SC({
 export const fontTeko = Teko({
   subsets: ["latin"],
   variable: "--teko",
+});
+
+export const fontYellowtail = Yellowtail({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--yellowtail",
 });

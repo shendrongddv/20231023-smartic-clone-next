@@ -5,12 +5,16 @@ import {
   fontBebasNeue,
   fontBromny,
   fontFahkwang,
+  fontGrenzeGotisch,
   fontInter,
   fontKanit,
   fontLora,
+  fontMarcellus,
   fontPlayfairDisplay,
+  fontRedRose,
   fontSpectral,
   fontTeko,
+  fontYellowtail,
 } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 
@@ -34,12 +38,16 @@ export default function RootLayout({
           fontBebasNeue.variable,
           fontBromny.variable,
           fontFahkwang.variable,
+          fontGrenzeGotisch.variable,
           fontInter.variable,
           fontKanit.variable,
           fontLora.variable,
+          fontMarcellus.variable,
           fontPlayfairDisplay.variable,
+          fontRedRose.variable,
           fontSpectral.variable,
           fontTeko.variable,
+          fontYellowtail.variable,
         )}
       >
         {children}
