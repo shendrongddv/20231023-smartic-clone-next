@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Index | Smartic",
+  title: "Smartic",
   description:
     "Responsive Product Landing Page WordPress Theme Smartic Overview",
 };

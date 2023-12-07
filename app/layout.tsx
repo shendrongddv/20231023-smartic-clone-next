@@ -19,7 +19,10 @@ import {
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Smartic - Product Landing Page WooCommerce Theme",
+  title: {
+    default: "Smartic - Product Landing Page WooCommerce Theme",
+    template: `%s | Smartic - Product Landing Page WooCommerce Theme`,
+  },
   description:
     "Responsive Product Landing Page WordPress Theme Smartic Overview",
 };
