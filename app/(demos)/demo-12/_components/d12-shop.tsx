@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
+import { Share2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -93,7 +93,7 @@ const ProductCard = ({ title, price, image, link }: TFakeData) => {
   return (
     <li>
       {/* # */}
-      <figure className="aspect-1 w-full overflow-hidden bg-[#F6F6F6]">
+      <figure className="aspect-1 w-full overflow-hidden rounded-md bg-[#F6F6F6]">
         <Image
           src={`/12/${image}`}
           alt={title}
@@ -127,7 +127,7 @@ const ProductCard = ({ title, price, image, link }: TFakeData) => {
             size="icon"
             className="aspect-1 shrink-0 text-destructive"
           >
-            <Heart className="h-4 w-4" />
+            <Share2 className="h-4 w-4" />
           </Button>
 
           <Button asChild variant="outline" className="w-full text-foreground">
