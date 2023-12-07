@@ -117,7 +117,7 @@ const ProductCard = ({ title, price, image, link }: TFakeData) => {
           <Icons.Star className="h-4 w-4" />
         </div>
 
-        <span className="-mt-2 text-xl font-bold text-foreground md:text-2xl">
+        <span className="text-xl font-bold text-foreground md:text-2xl">
           {price}
         </span>
 
