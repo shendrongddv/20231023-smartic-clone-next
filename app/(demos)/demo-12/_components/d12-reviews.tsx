@@ -1,3 +1,4 @@
+import { Icons } from "@/components/icons";
 import Image from "next/image";
 
 const D12_Section_Reviews = () => {
@@ -21,24 +22,28 @@ const D12_Section_Reviews = () => {
         </div>
 
         {/* Row */}
-        <div className="grid w-full gap-8 md:grid-cols-3">
+        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           {/* Col */}
-          <div></div>
+          <div className="md:w-4/12">
+            <ReviewCard />
+          </div>
 
           {/* Col */}
-          <div>
+          <div className="md:w-3/12">
             <Image
               aria-hidden
               src="/12/home-12-image-3.webp"
               alt="Image"
               width={480}
               height={480}
-              className="h-auto w-full"
+              className="mx-auto h-auto w-3/4 md:w-full"
             />
           </div>
 
           {/* Col */}
-          <div></div>
+          <div className="md:w-4/12">
+            <ReviewCard />
+          </div>
         </div>
       </div>
     </section>
@@ -46,3 +51,27 @@ const D12_Section_Reviews = () => {
 };
 
 export default D12_Section_Reviews;
+
+const ReviewCard = () => {
+  return (
+    <div className="flex flex-col items-center p-6 text-center md:p-8">
+      <p className="mb-6 font-semibold italic text-foreground">
+        &apos;Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+        beatae maiores, similique officiis quidem, voluptas cum nisi totam nemo
+        est, sit adipisci quas iste.&apos;
+      </p>
+
+      <div className="mt-auto flex items-center justify-center gap-1 text-[#FF6F54]">
+        <Icons.Star className="h-4 w-4" />
+        <Icons.Star className="h-4 w-4" />
+        <Icons.Star className="h-4 w-4" />
+        <Icons.Star className="h-4 w-4" />
+        <Icons.Star className="h-4 w-4" />
+      </div>
+
+      <span className="mt-2 text-sm font-semibold text-foreground">
+        Tracey Lang, New York
+      </span>
+    </div>
+  );
+};
