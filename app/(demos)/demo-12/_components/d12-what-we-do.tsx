@@ -8,31 +8,31 @@ const fakeData = [
   },
   {
     id: 2,
-    text: "Inceptos interdum, tortor lobortis blandit condimentum phasellus at class mattis mus. Iaculis potenti molestie.",
+    text: "Inceptos interdum, tortor lobortis blandit condimentum phasellus at class mattis.",
   },
   {
     id: 3,
-    text: "Facilisis nunc porttitor ligula taciti ridiculus eleifend dapibus, suspendisse tempus lacinia pellentesque elementum.",
+    text: "Facilisis nunc porttitor ligula taciti ridiculus eleifend dapibus, suspendisse.",
   },
   {
     id: 4,
-    text: "Sociosqu convallis mi torquent praesent dui, quisque tortor leo euismod ut condimentum facilisi libero nisl.",
+    text: "Sociosqu convallis mi torquent praesent dui, quisque tortor leo euismod ut.",
   },
   {
     id: 5,
-    text: "Sollicitudin orci ante fames eget est feugiat dui netus ullamcorper accumsan, dictum convallis habitasse morbi litora.",
+    text: "Sollicitudin orci ante fames eget est feugiat dui netus ullamcorper accumsan, dictum.",
   },
   {
     id: 6,
-    text: "Rhoncus quisque felis interdum, nostra massa aenean purus odio laoreet auctor urna ac. Conubia aliquet aliquam sociosqu nisi.",
+    text: "Rhoncus quisque felis interdum, nostra massa aenean purus odio laoreet auctor urna ac. Conubia.",
   },
   {
     id: 7,
-    text: "Orci magna id, tellus mattis habitant curae litora ullamcorper aptent feugiat, primis tincidunt parturient lacus.",
+    text: "Orci magna id, tellus mattis habitant curae litora ullamcorper aptent feugiat.",
   },
   {
     id: 8,
-    text: "Fames a vulputate et vitae mollis sollicitudin potenti montes, lacus luctus himenaeos orci aliquet rutrum.",
+    text: "Fames a vulputate et vitae mollis sollicitudin potenti montes, lacus luctus.",
   },
 ];
 
